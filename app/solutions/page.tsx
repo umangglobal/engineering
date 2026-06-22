@@ -1,19 +1,44 @@
-// app/white-papers/page.tsx
 
-import { Box, Button, Container, Typography } from "@mui/material";
+import { Box, Button, Container, Typography, Grid, Card, CardContent, CardMedia, Stack, Paper, Chip, Tabs, Tab } from "@mui/material";
 import { BannerCommon } from "@/components/UI/BannerCommon";
 import { createBreadcrumbSchema, OrganizationSchema } from "@/lib/api/SeoSchemas";
 import Link from "next/link";
-import PackageProductIcon from "@/assets/icons/product/packageproduct.svg";
-import WhatsappIcon from "@/assets/icons/homepage/whatsapp.svg";
 import type { Metadata } from "next";
+import SolutionsExplorer from "@/components/UI/ResourcesComponent/SolutionsExplorer";
+
+
+const solutions = [
+{
+title: 'Pelletization',
+image: 'assets/images/solutions/pelletization.webp',
+description:
+'Complete pelletization solutions from laboratory scale to commercial production.',
+},
+{
+title: 'Granulation',
+image: 'assets/images/solutions/granulation.webp',
+description:
+'Efficient granulation systems for pharmaceutical and nutraceutical applications.',
+},
+{
+title: 'Oral Thin Film',
+image: 'assets/images/solutions/film.webp',
+description:
+'End-to-end oral thin film development and manufacturing solutions.',
+},
+{
+title: 'Extrusion',
+image: 'assets/images/solutions/extrusion.webp',
+description:
+'Advanced extrusion technologies for optimized production.',
+},
+];
 
 // ---- Static data ----
 const BreadcrumbsUrls = [
   { title: "Home",         url: "/"              },
   { title: "Resources",    url: "/resources"     },
   { title: "Company",      url: "/company"       },
-  { title: "White Papers", url: "/white-papers"  },
 ];
 
 const WhitePapersPageSchema = {
@@ -26,15 +51,16 @@ const WhitePapersPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "White Papers for Business | Umang Nutraceuticals",
-  description: "White papers on pharma for business. Enhance your knowledge and drive innovation with Umang Nutraceuticals's expert resources.",
+  title: "Engineering Solutions | Umang Nutraceuticals",
+  description: "Advanced engineering solutions for pharmaceutical, nutraceutical, food and chemical industries.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/white-papers",
+    canonical: "https://www.umangengineering.com/solutions",
   },
 };
 
 // ---- Page ----
 export default function Solutions() {
+
   return (
     <>
       {/* JSON-LD Schema */}
@@ -45,134 +71,305 @@ export default function Solutions() {
 
       <BannerCommon
         BreadcrumbsUrls={BreadcrumbsUrls}
-        BreadcrumbsCurrent="White Papers"
+        BreadcrumbsCurrent="Solutions"
         BannerImg="resources/WhitePapers-banner.png"
-        BannerHeading="White Papers"
-        BannerCaption="White Papers"
+        BannerHeading="Solutions"
+        BannerCaption="Engineering Solutions"
       />
 
-      <Box sx={{ p: 4, alignItems: "center", background: "#fff", borderRadius: "20px" }}>
-        <Container sx={{ display: "flex", flexDirection: "column" }}>
+        {/* SOLUTION CARDS */}
+  <Container maxWidth="xl" sx={{ py: 10 }}>
+    <Typography
+      variant="h3"
+      textAlign="center"
+      fontWeight={600}
+      mb={6}
+    >
+      Our Solutions
+    </Typography>
 
-          {/* Image */}
-          <Box
+    <Grid container spacing={4}>
+      {solutions.map((item) => (
+        <Grid size={{ xs: 12, sm: 6, md: 3 }} key={item.title}>
+          <Card
             sx={{
-              width: "100%",
-              display: "grid",
-              gap: "50px",
-              gridTemplateColumns: "1fr",
-              justifyContent: "space-between",
-              alignItems: "stretch",
-              justifyItems: "center",
-              position: "relative",
+              borderRadius: 5,
+              height: '100%',
+              transition: '.3s',
+              '&:hover': {
+                transform: 'translateY(-8px)',
+              },
             }}
           >
-            <Box
+            <CardMedia
               component="img"
-              src="/assets/images/resources/careers-page.png"
-              alt="White Papers Coming Soon"
-              sx={{
-                width: 432,
-                height: 288,
-                background: "#DDE1E6",
-                borderRadius: "36px",
-                position: "relative",
-              }}
+              image={item.image}
+              height="250"
             />
-          </Box>
 
-          {/* Content */}
-          <Box display="flex" justifyContent="space-around" alignItems="center" pt="20px">
-            <Box width="100%" maxWidth={981} display="flex" flexDirection="column" alignItems="center" gap={1}>
-
-              <Typography
-                sx={{
-                  fontSize: 32,
-                  fontWeight: 500,
-                  fontFamily: "Jost-sb",
-                  color: "#21272A",
-                  whiteSpace: "pre-line",
-                }}
-              >
-                Soon We Will Publish a Paper
+            <CardContent>
+              <Typography variant="h6" fontWeight={600}>
+                {item.title}
               </Typography>
 
+              <Typography mt={1}>
+                {item.description}
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+      ))}
+    </Grid>
+  </Container>
+
+        {/* WHY UMANG */}
+  <Box sx={{ bgcolor: '#41939C21', py: 10 }}>
+    <Container maxWidth="xl">
+      <Typography
+        variant="h3"
+        textAlign="center"
+        fontWeight={600}
+        mb={6}
+      >
+        Why Umang Engineering
+      </Typography>
+      <Typography
+  sx={{
+    fontSize: '1.1rem',
+    opacity: 0.9,
+    mb: 4,
+    whiteSpace: 'pre-line',
+    fontFamily: 'Jost',
+  }}
+>
+{`UMANG Global equipment excels at producing pharmaceuticals in solid dosage forms. Generate free-flowing granular products or pelletize powders, before processing.
+
+Condition powders prior to encapsulation or tableting with our Die roller or Cone / Axial / Radial extruder equipment. With application testing, we'll help you determine the best machines, in the optimal configurations, for your specific process needs.
+
+Test facilities at our headquarters feature a broad selection of lab and production equipment. We use our machinery and expertise to assist you with proof-of-concept testing and arrive at the best process solutions to meet your unique needs.
+
+We also provide training for customers' operations and maintenance crews, to ensure your employees' knowledge and understanding of the Umang Global machinery you've invested in.`}
+</Typography>
+
+      <Grid container spacing={4}>
+        {[
+          'Pharmaceuticals- Umang Global® equipment excels at producing pharmaceuticals in solid dosage forms. Generate free-flowing granular products or pelletize powders, before processing. ',
+          'Food- Our Extruder and spheronizers series of pelletizers emphasize ease of operation, and feature simple-to-clean stainless steel construction.',
+          'Chemicals- The chemical industry has come to expect excellent results from UMANG GLOBAL For decades, we’ve helped the chemical industry by modifying existing machinery or creating new, special-purpose machines or parts so clients can more.',
+          'If you are interested in more information about any of our services — including our particle processing solutions, our operations/maintenance training, and/or our expert application testing — please visit our “Request a Quote” page and fill out the brief form.',
+        ].map((item) => (
+          <Grid size={{ xs: 4, md: 3 }} key={item}>
+            <Paper
+              sx={{
+                p: 4,
+                textAlign: 'center',
+                borderRadius: 4,
+                height: '100%',
+              }}
+            >
+              <Typography fontWeight={600}>
+                {item}
+              </Typography>
+            </Paper>
+          </Grid>
+        ))}
+      </Grid>
+    </Container>
+  </Box>
+
+
+
+  {/* PROCESS TIMELINE */}
+  <Box sx={{ bgcolor: '#fafafa', py: 10 }}>
+    <Container maxWidth="lg">
+      <Typography
+        variant="h3"
+        textAlign="center"
+        fontWeight={600}
+        mb={8}
+      >
+        How We Work
+      </Typography>
+
+      <Grid container spacing={4}>
+        {[
+          'Application Review',
+          'Lab Trials',
+          'Optimization',
+          'Pilot Validation',
+          'Production',
+        ].map((step, index) => (
+            <Grid size={{ xs: 12, sm: 6, md: 2.4 }} key={step}>
+            <Paper
+              elevation={0}
+              sx={{
+                p: 4,
+                textAlign: 'center',
+                borderRadius: 4,
+                bgcolor: '#fff',
+              }}
+            >
               <Typography
                 sx={{
-                  fontSize: "16px",
-                  fontWeight: 400,
-                  mb: 3,
-                  whiteSpace: "pre-line",
-                  textAlign: "center",
+                  width: 50,
+                  height: 50,
+                  borderRadius: '50%',
+                  bgcolor: '#41939c',
+                  color: '#fff',
+                  mx: 'auto',
+                  mb: 2,
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
                 }}
               >
-                {`We are under process of writing and publishing the white paper,\nSubscribe to our newsletter to stay updated\nabout our recent publications!`}
+                {index + 1}
               </Typography>
 
-              {/* CTA Buttons */}
-              <Box
-                sx={{
-                  width: { xs: "360.51px", md: "537.51px" },
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "16px",
-                }}
-              >
-                <Link href="/free-quote" style={{ width: "100%" }}>
-                  <Button
-                    variant="outlined"
-                    startIcon={<PackageProductIcon style={{ fontSize: 24, color: "#41939C" }} />}
-                    sx={{
-                      width: "100%",
-                      height: 46,
-                      px: 3,
-                      borderRadius: "26px",
-                      borderColor: "#41939C",
-                      color: "#41939C",
-                      textTransform: "none",
-                      fontFamily: "Jost",
-                      fontSize: { xs: 16, sm: 18 },
-                      fontWeight: 500,
-                      letterSpacing: "0.36px",
-                    }}
-                  >
-                    Contact us
-                  </Button>
-                </Link>
+              <Typography fontWeight={600}>
+                {step}
+              </Typography>
+            </Paper>
+          </Grid>
+        ))}
+      </Grid>
+    </Container>
+  </Box>
 
-                <Link
-                  href="https://api.whatsapp.com/send?text=Hello&phone=919518349134"
-                  target="_blank"
-                  style={{ width: "100%" }}
-                >
-                  <Button
-                    variant="contained"
-                    startIcon={<WhatsappIcon style={{ fontSize: 30, color: "#ffffff" }} />}
-                    sx={{
-                      flex: 1,
-                      width: "100%",
-                      height: 46,
-                      px: 3,
-                      borderRadius: "26px",
-                      backgroundColor: "#41939C",
-                      color: "#ffffff",
-                      textTransform: "none",
-                      fontFamily: "Jost",
-                      fontSize: { xs: 16, sm: 18 },
-                      fontWeight: 500,
-                      letterSpacing: "0.36px",
-                      "&:hover": { backgroundColor: "#41939CA8" },
-                    }}
-                  >
-                    Connect with Expert
-                  </Button>
-                </Link>
-              </Box>
-            </Box>
-          </Box>
-        </Container>
+  {/* SOLUTION EXPLORER */}
+
+
+   <Container maxWidth="xl" sx={{ py: 10 }}>
+  <SolutionsExplorer />
+    </Container>
+
+    {/* HERO */}
+  <Box
+    sx={{
+      minHeight: '80vh',
+      backgroundImage:
+        'linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url(assets/images/solutions/hero.webp)',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      display: 'flex',
+      alignItems: 'center',
+    }}
+  >
+    <Container maxWidth="xl">
+      <Box maxWidth={700}>
+        <Typography
+          variant="h2"
+          sx={{
+            color: '#fff',
+            fontWeight: 700,
+            mb: 2,
+            fontSize: {
+              xs: '2.5rem',
+              md: '4rem',
+            },
+          }}
+        >
+          Engineering Solutions For Modern Manufacturing
+        </Typography>
+
+        <Typography
+          sx={{
+            color: '#fff',
+            fontSize: '1.1rem',
+            opacity: 0.9,
+            mb: 4,
+          }}
+        >
+          Helping pharmaceutical, nutraceutical, food and chemical
+          manufacturers scale efficiently with innovative processing
+          technologies.
+        </Typography>
+
+        <Stack direction="row" spacing={2}>
+          <Link href="/contact-us">
+          <Button
+            variant="contained"
+            size="large"
+            sx={{
+              bgcolor: '#41939c',
+              borderRadius: '40px',
+            }}
+          >
+            Request Consultation
+          </Button>
+          </Link>
+          <Link href="/contact-us">
+          <Button
+            variant="outlined"
+            size="large"
+            sx={{
+              color: '#fff',
+              borderColor: '#fff',
+              borderRadius: '40px',
+            }}
+          >
+            Explore Solutions
+          </Button>
+          </Link>
+        </Stack>
       </Box>
+    </Container>
+  </Box>
+
+
+
+
+  {/* CTA */}
+  <Container maxWidth="lg" sx={{ py: 10 }}>
+    <Paper
+      sx={{
+        p: 8,
+        borderRadius: 6,
+        textAlign: 'center',
+        background:
+          'linear-gradient(135deg,#41939c 0%, #41939c 100%)',
+        color: '#fff',
+      }}
+    >
+      <Typography variant="h3" mb={2}>
+        Need Help Choosing The Right Process?
+      </Typography>
+
+      <Typography mb={4}>
+        Speak with our specialists and discover the ideal
+        equipment configuration for your application.
+      </Typography>
+
+      <Stack
+        direction={{ xs: 'column', md: 'row' }}
+        spacing={2}
+        justifyContent="center"
+      >
+        <Link href="https://api.whatsapp.com/send?text=Hello&amp;phone=919518349134">
+        <Button
+          variant="contained"
+          sx={{
+            bgcolor: '#fff',
+            color: '#41939c',
+          }}
+        >
+          Speak With Expert
+        </Button>
+        </Link>
+        <Link href="/contact-us">
+        <Button
+          variant="outlined"
+          sx={{
+            color: '#fff',
+            borderColor: '#fff',
+          }}
+        >
+          Request Trial
+        </Button>
+        </Link>
+      </Stack>
+    </Paper>
+  </Container>
     </>
   );
 }
