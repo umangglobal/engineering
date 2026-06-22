@@ -1,0 +1,42 @@
+[
+  {
+    "pro_application": "🛠️",
+    "pro_app_img": "extrudes.webp",
+    "pro_app_alt": "Custom oral care blend featuring encapsulated ingredients",
+    "pro_app_type": "Bead Size",
+    "pro_app_slug": "actifilms-af",
+    "pro_application_subtitile" : "Extrudes"
+  },
+  {
+    "pro_application": "🛠️",
+    "pro_app_img": "screw.webp",
+    "pro_app_alt": "Personalized facial serum with encapsulated active ingredients",
+    "pro_app_type": "Bead Size",
+    "pro_app_slug": "sprayspheres-se",
+    "pro_application_subtitile" : "Screw"
+  },
+  {
+    "pro_application": "🛠️",
+    "pro_app_img": "cone-mesh.webp",
+    "pro_app_alt": "Personalized facial serum with encapsulated active ingredients",
+    "pro_app_type": "Bead Size",
+    "pro_app_slug": "sprayspheres-se",
+    "pro_application_subtitile" : "Cone"
+  },
+  {
+    "pro_application": "🛠️",
+    "pro_app_img": "wheel.webp",
+    "pro_app_alt": "Personalized facial serum with encapsulated active ingredients",
+    "pro_app_type": "Bead Size",
+    "pro_app_slug": "sprayspheres-se",
+    "pro_application_subtitile" : "Wheel"
+  },
+  {
+    "pro_application": "🛠️",
+    "pro_app_img": "radial-mesh.webp",
+    "pro_app_alt": "Custom body care formulation with encapsulated actives in transparent bottle",
+    "pro_app_type": "Bead Size",
+    "pro_app_slug": "natural-exfoliator-nat",
+    "pro_application_subtitile" : "Radial"
+  }
+]

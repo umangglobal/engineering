@@ -1,0 +1,51 @@
+[
+  {
+    "pro_nav_application": "Extrusion Systems",
+    "pro_nav_app_img": "Cover11.webp",
+    "pro_nav_app_type": "Single Screw Extruder, Twin Screw Extruder, Hot Melt Extruder, Basket Extruder, Die Roller Extruder, Cold Extrusion Machine (Pet Food), Extruder Attachments",
+    "pro_nav_app_slug": "extrusion-systems",
+    "pro_icon": "SC",
+    "pro_bg_color": "#FFD670"
+  },
+  {
+    "pro_nav_application": "Pelletization & Spheronization Systems",
+    "pro_nav_app_img": "Cover11.webp",
+    "pro_nav_app_type": "Spheronizer / Twin Spheronizer, Auto Coater, Solid Drug Layering, Powder Rotor Processor (Pellet Processor) ",
+    "pro_nav_app_slug": "pelletization-and-spheronization-systems",
+    "pro_icon": "SE",
+    "pro_bg_color": "#EC807B"
+  },
+  {
+    "pro_nav_application": "Granulation Systems",
+    "pro_nav_app_img": "Cover11.webp",
+    "pro_nav_app_type": "Rapid Mixer Granulator (RMG), Roller Compactor, Fluid Bed Processor / Fluid Bed Multi Processor",
+    "pro_nav_app_slug": "granulation-systems",
+    "pro_icon": "NAT",
+    "pro_bg_color": "#90CDC3"
+  },
+  {
+    "pro_nav_application": "Drying & Processing Equipment",
+    "pro_nav_app_img": "Cover11.webp",
+    "pro_nav_app_type": "Fluid Bed Dryer, Fluid Bed Processor / Fluid Bed Multi Processor, Tapered Discharge / Auto Discharge",
+    "pro_nav_app_slug": "drying-and-processing-equipment",
+    "pro_icon": "SS",
+    "pro_bg_color": "#F9AB55"
+  },
+  {
+    "pro_nav_application": "Continuous Manufacturing Systems",
+    "pro_nav_app_img": "Cover11.webp",
+    "pro_nav_app_type": "Integrated Extruder & Spheronizer Continuous Process, Granulation Line, Pelletization Line, Water Dispersible Granules System",
+    "pro_nav_app_slug": "continuous-manufacturing-systems",
+    "pro_icon": "SA",
+    "pro_bg_color": "#B19CD8"
+  },
+  {
+    "pro_nav_application": "Film Processing",
+    "pro_nav_app_img": "Cover11.webp",
+    "pro_nav_app_type": "Film Casting Machine",
+    "pro_nav_app_slug": "film-processing",
+    "pro_icon": "AF",
+    "pro_bg_color": "#8BD3E7"
+  }
+
+]

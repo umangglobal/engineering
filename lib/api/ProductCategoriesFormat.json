@@ -1,0 +1,66 @@
+[
+  {
+    "pro_segment": "Extrusion",
+    "pro_segment_type": "Extrusion Systems",
+    "pro_img": "extrusion-systems.webp",
+    "pro_customization": "Lab Scale • Production",
+    "pro_slug": "extrusion-systems",
+    "pro_segment_title": "VitaSphere® | Encapsulated active vitamins | Umang Nutraceuticals",
+    "pro_segment_desc": "Explore Umang Nutraceuticals's Vitamins Beadlets and Encapsulated active vitamins. Elevate your applications with our advanced particle technology solutions."
+  },
+  {
+    "pro_segment": "Pelletization & Spheronization",
+    "pro_segment_type": "Pelletization & Spheronization",
+    "pro_img": "pelletization-&-spheronization-systems.webp",
+    "pro_customization": "Lab Scale • Production",
+    "pro_slug": "pelletization-and-spheronization-systems",
+    "pro_segment_title": "Minospheres™ | Encapsulated minerals | Umang Nutraceuticals",
+    "pro_segment_desc": "Experience the future of skincare with Minospheres™ exfoliators. Explore Umang Nutraceuticals for advanced exfoliation that reveals your skin's natural glow."
+  },
+  {
+    "pro_segment": "Granulation",
+    "pro_segment_type": "Granulation Systems",
+    "pro_img": "granulation-systems.webp",
+    "pro_customization": "Lab Scale • Production",
+    "pro_slug": "granulation-systems",
+    "pro_segment_title": "Caretospheres® | Encapsulated Carotenoids | Umang Nutraceuticals",
+    "pro_segment_desc": "Various naturally pigmented carotenoids, including beta-carotene, lycopene, and lutein. Explore Umang Nutraceuticals for endless fun!"
+  },
+  {
+    "pro_segment": "Drying & Processing",
+    "pro_segment_type": "Drying & Processing Equipment",
+    "pro_img": "drying-&-processing-equipment.webp",
+    "pro_customization": "Lab Scale • Production",
+    "pro_slug": "drying-and-processing-equipment",
+    "pro_segment_title": "Actispheres™ | Color Changing Beads | Umang Nutraceuticals",
+    "pro_segment_desc": "Improve stability, solubility and Prevent volatilization with innovative our beads. Explore Umang Nutraceuticals for endless fun!"
+  },
+  {
+    "pro_segment": "Continuous Manufacturing",
+    "pro_segment_type": "Continuous Manufacturing Systems",
+    "pro_img": "continuous-manufacturing-systems.webp",
+    "pro_customization": "Lab Scale • Production",
+    "pro_slug": "continuous-manufacturing-systems",
+    "pro_segment_title": "Botanispheres® | Encapsulated Herbs | Umang Nutraceuticals",
+    "pro_segment_desc": "Discover the power of botanical extracts with Botanispheres®. Explore Umang Nutraceuticals for innovative solutions."
+  },
+  {
+    "pro_segment": "Film Processing",
+    "pro_segment_type": "Film Processing",
+    "pro_img": "film-processing.webp",
+    "pro_customization": "Lab Scale • Production",
+    "pro_slug": "film-processing",
+    "pro_segment_title": "Aminospheres® | Encapsulated Amino Acids | Umang Nutraceuticals",
+    "pro_segment_desc": "Explore the benefits of our encapsulated amino acids. Discover how they can enhance your formulations. Explore Umang Nutraceuticals for innovative solutions."
+  }
+  ,
+  {
+    "pro_segment": "Spare parts & Accessories",
+    "pro_segment_type": "Spare parts & Accessories",
+    "pro_img": "spare-parts-&-accessories.webp",
+    "pro_customization": "Lab Scale • Production",
+    "pro_slug": "spare-parts",
+    "pro_segment_title": "Spare parts & Accessories | Umang Nutraceuticals",
+    "pro_segment_desc": "Explore the benefits of our encapsulated amino acids. Discover how they can enhance your formulations. Explore Umang Nutraceuticals for innovative solutions."
+  }
+]

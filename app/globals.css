@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+/* ---- Font faces ---- */
+@font-face {
+  font-family: 'Jost';
+  src: url('/assets/fonts/Jost-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost-sb';
+  src: url('/assets/fonts/Jost-SemiBold.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost-fallback';
+  src: local('Arial');
+  size-adjust: 103%;
+  ascent-override: 95%;
+  descent-override: 25%;
+  line-gap-override: 0%;
+}
+
+/* ---- Base styles ---- */
+body {
+  background: #ffffff;
+  color: #171717;
+  font-family: 'Jost', 'Jost-fallback', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---- YouTube embed ---- */
+lite-youtube {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+/* ---- Accordion ---- */
+.AccordianTitle {
+  font-weight: 500;
+}
+
+.AccordianDescription {
+  font-weight: 400;
+}
+
+/* ---- Blog post details ---- */
+.post-details {
+  font-family: 'Jost', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #21272A;
+  line-height: 1.7;
+  font-size: 16px;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.post-details .font-italic {
+  font-style: italic;
+  font-size: 16px;
+  color: #E91E63;
+  display: block;
+  margin: 15px 0;
+  letter-spacing: 0.4px;
+}
+
+.post-details h4 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #091610;
+  margin: 40px 0 20px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #E0E0E0;
+  font-family: 'Jost', sans-serif;
+}
+
+.post-details p {
+  margin: 0 0 20px 0;
+  color: #4A5568;
+}
+
+.post-details p > b {
+  font-weight: 600;
+  color: #091610;
+  display: inline-block;
+  min-width: 180px;
+}
+
+.post-details p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  .post-details {
+    padding: 0 16px;
+    font-size: 15px;
+  }
+
+  .post-details h4 {
+    font-size: 22px;
+    margin: 32px 0 16px 0;
+  }
+
+  .post-details .font-italic {
+    font-size: 11px;
+  }
+}

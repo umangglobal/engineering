@@ -1,0 +1,26 @@
+[
+  {
+    "pro_cust_type": "Granulation",
+    "pro_cust_img": "granulation.webp",
+    "pro_cust_desc": "Uniform granules engineered for enhanced flow, stability, and formulation consistency across applications.",
+    "pro_cust_slug": "bead_sizes"
+  },
+  {
+    "pro_cust_type": "Extrusion",
+    "pro_cust_img": "extrusion.webp",
+    "pro_cust_desc": "Precision extrusion process designed for uniform pellet formation and customizable product appearance.",
+    "pro_cust_slug": "bead_sizes"
+  },
+  {
+    "pro_cust_type": "Spheronization",
+    "pro_cust_img": "spheronization.webp",
+    "pro_cust_desc": "Advanced spheronization creating smooth, spherical pellets for targeted and controlled release with exceptional uniformity.",
+    "pro_cust_slug": "pantone_color_shades"
+  },
+  {
+    "pro_cust_type": "Coating & Layering",
+    "pro_cust_img": "coating.webp",
+    "pro_cust_desc": "Functional coating and layering solutions for taste masking .....",
+    "pro_cust_slug": "release_profiles"
+  }
+]
