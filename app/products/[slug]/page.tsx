@@ -61,9 +61,9 @@ export default async function ProductsPage({ params }: Props) {
   const titlebanner = (
     <>
       {slug.replace(/-/g, " ").toUpperCase()}
-      <Box component="sup" sx={{ fontSize: "0.3em", verticalAlign: "super" }}>
+      {/* <Box component="sup" sx={{ fontSize: "0.3em", verticalAlign: "super" }}>
         TM
-      </Box>
+      </Box> */}
     </>
   );
 
