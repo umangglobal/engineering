@@ -55,7 +55,7 @@ export const ProductsCards = ({ data }: ProductsCardsProps) => {
                     }}
                   >
                     <img
-                      src={`/assets/images/products/outer-cards/${product_active.replace(/ /g, "-")}.webp`}
+                      src={`/assets/images/products/outer-cards/${product_slug.replace(/ /g, "-")}.webp`}
                       alt={product_name}
                       loading="lazy"
                       style={{
