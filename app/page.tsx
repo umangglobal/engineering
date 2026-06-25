@@ -12,16 +12,16 @@ const HomePageSchema = {
 }
 
 export const metadata: Metadata = {
-  title: "High-Performance Nutraceuticlas Formulations | Umang Nutraceuticals",
-  description: "Expert insights from Umang Nutraceuticals for Nutra products. Understand encapsulation of active particles like never before. Visit us now for clear explanations.",
+  title: "Umang Engineering Encapsulation Machinery | Innovative Solutions",
+  description: "Umang Engineering offers top-of-the-line encapsulation machinery and innovative solutions. Learn more about our advanced technology and services now!.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/",
+    canonical: "https://www.umangengineering.com/",
   },
   openGraph: {
-    title: "Umang Nutraceuticals",
-    description: "Leading provider of innovative encapsulation solutions.",
-    images: ["https://www.umangnutraceuticals.com/assets/images/home/release_profiles.webp"],
-    url: "https://www.umangnutraceuticals.com/",
+    title: "Umang Engineering",
+    description: "Providing industries with precision-engineered products that increase their productivity and sustainability.",
+    images: ["https://www.umangengineering.com/assets/images/home/spheronization.webp"],
+    url: "https://www.umangengineering.com/",
   },
 }
 

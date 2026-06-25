@@ -69,11 +69,11 @@ export const BannerHome = () => {
             lineHeight: "40px",
             fontSize: "32px",
             fontWeight: 500,
-            color: "black",
+            color: "white",
             width: "90%",
           }}
         >
-          Precision Encapsulation for Next-Gen Nutraceutical Performance
+          Precision Engineering for Advanced Process Solutions
         </Typography>
 
         <Button
@@ -185,6 +185,7 @@ export const BannerHome = () => {
                   fontWeight: 500,
                   lineHeight: 1.3,
                   pt: "15px",
+                  color: "white",
                 }}
               >
                 Precision Engineering for Advanced Process Solutions
