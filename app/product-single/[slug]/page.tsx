@@ -115,7 +115,7 @@ export default async function ProductSinglePage({ params }: Props) {
   const tabData = [
     {
       label: "Special Features",
-      img: `/assets/images/products/outer-cards/${data.product_active.replace(/ /g, "-")}.webp`,
+      img: images[4] ? `/${images[4].url}` : "/assets/images/home/abouthome.png",
       content: data.product_active_benefits,
       iconKey: "MouthwashIcon",
     },
@@ -332,11 +332,11 @@ export default async function ProductSinglePage({ params }: Props) {
           </Typography>
         </Box>
 
-        {/* Product Tabs */}
+        {/* Product Table */}
         <Box my={8}>
          <CapacityTable dbProductString={data.product_capacity_table} />               
         </Box>
-        {/* Product Tabs */}
+        {/* Product Table */}
 
         <Box my={8}>
           <Typography variant="h3" sx={{ textAlign: "left", color: "black", fontSize: { xs: "20px", md: "32px" }, fontFamily: "Jost-sb", fontWeight: 500 }}>
