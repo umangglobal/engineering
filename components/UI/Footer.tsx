@@ -87,7 +87,7 @@ export const Footer = () => {
               <Box
                 component="img"
                 sx={{ width: { xs: "200px", md: "200px" } }}
-                alt="Umang Nutraceuticals Footer Logo"
+                alt="Umang Engineering Footer Logo"
                 src="/assets/images/footerLogo.svg"
               />
             </Link>

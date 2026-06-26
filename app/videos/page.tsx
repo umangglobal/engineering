@@ -23,10 +23,10 @@ const VideosPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Latest Encapsulation Technology Videos | Umang Nutraceuticals",
-  description: "Stay updated on encapsulation technology! Explore Umang Nutraceuticals's latest videos featuring advancements, insights, and expert discussions in the field.",
+  title: "Latest Encapsulation Technology Videos | Umang Engineering",
+  description: "Stay updated on encapsulation technology! Explore Umang Engineering's latest videos featuring advancements, insights, and expert discussions in the field.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/videos",
+    canonical: "https://www.umangengineering.com/videos",
   },
 };
 

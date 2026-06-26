@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   title: "FAQs: Get the Info You Need | Umang Engineering",
   description: "Get quick answers to your queries with our detailed FAQs. Empower your research and understanding with reliable information at your fingertips!",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/faqs",
+    canonical: "https://www.umangengineering.com/faqs",
   },
 };
 

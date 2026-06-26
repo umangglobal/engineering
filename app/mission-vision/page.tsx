@@ -24,10 +24,10 @@ const MissionVisionPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Clear Mission, Bold Vision | Umang Nutraceuticals",
-  description: "Explore Umang Nutraceuticals, where a clear mission meets a bold vision. Learn how we're revolutionizing particle technology for a better tomorrow.",
+  title: "Clear Mission, Bold Vision | Umang Engineering",
+  description: "Explore Umang Engineering, where a clear mission meets a bold vision. Learn how we're revolutionizing particle technology for a better tomorrow.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/mission-vision",
+    canonical: "https://www.umangengineering.com/mission-vision",
   },
 };
 

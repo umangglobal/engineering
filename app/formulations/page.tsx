@@ -26,10 +26,10 @@ const FormulationPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Expert Formulations | Umang Nutraceuticals",
-  description: "Umang Nutraceuticals offers expert formulations designed to enhance performance and efficiency. Explore our advanced solutions for your scientific challenges.",
+  title: "Expert Formulations | Umang engineering",
+  description: "Umang Engineering offers expert formulations designed to enhance performance and efficiency. Explore our advanced solutions for your scientific challenges.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/formulations",
+    canonical: "https://www.umangengineering.com/formulations",
   },
 };
 

@@ -25,10 +25,10 @@ const ManufacturingSiteTransferProjectsPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Manufacturing Site Transfer Projects | Umang Nutraceuticals",
-  description: "Umang Nutraceuticals specializes in seamless manufacturing site transfer projects. Optimize your production processes with our expert guidance and support.",
+  title: "Manufacturing Site Transfer Projects | Umang Engineering",
+  description: "Umang Engineering specializes in seamless manufacturing site transfer projects. Optimize your production processes with our expert guidance and support.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/manufacturing-site-transfer-projects",
+    canonical: "https://www.umangengineering.com/manufacturing-site-transfer-projects",
   },
 };
 

@@ -28,7 +28,7 @@ const CardData: CardItem[] = [
   },
   {
     title: "World Wide Network",
-    description: "Umang Nutraceuticals has established a strong global footprint, serving clients across diverse markets. Our extensive distribution network ensures seamless access to innovative products. With trusted partnerships worldwide, we deliver consistent quality and support wherever your business operates.",
+    description: "Umang Engineering has established a strong global footprint, serving clients across diverse markets. Our extensive distribution network ensures seamless access to innovative products. With trusted partnerships worldwide, we deliver consistent quality and support wherever your business operates.",
   },
   {
     title: "Experienced Team",
@@ -46,10 +46,10 @@ const FreeQuotePageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Free Quote: Quick & Easy | Umang Nutraceuticals",
-  description: "Experience hassle-free service with Umang Nutraceuticals. Request your free quote now and unlock customized solutions for your projects!",
+  title: "Request a Free Equipment Quote | Umang Engineering",
+  description: "Get a free quote for pharmaceutical processing equipment, pelletization systems, granulation machines, coating equipment, and turnkey manufacturing solutions from UMANG Global Equipment.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/free-quote",
+    canonical: "https://www.umangengineering.com/free-quote",
   },
 };
 

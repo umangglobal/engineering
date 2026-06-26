@@ -36,10 +36,10 @@ const GreenVisitorProgramPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Green Visitor Program | Umang Nutraceuticals",
-  description: "Explore Umang Nutraceuticals's Green Visitor Program, designed to promote sustainability and environmental awareness. Join us for an enlightening experience!",
+  title: "Green Visitor Program | Umang Engineering",
+  description: "Explore Umang Engineering's Green Visitor Program, designed to promote sustainability and environmental awareness. Join us for an enlightening experience!",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/green-visitor-program",
+    canonical: "https://www.umangengineering.com/green-visitor-program",
   },
 };
 

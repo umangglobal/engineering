@@ -57,10 +57,10 @@ const OurOtherBrandsPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Find Our Other Brands | Umang Nutraceuticals",
-  description: "Explore the other brands of Umang Nutraceuticals. Innovative offerings and find the perfect solutions for your pharma needs.",
+  title: "Find Our Other Brands | Umang Engineering",
+  description: "Explore the other brands of Umang Engineering. Innovative offerings and find the perfect solutions for your pharma needs.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/our-other-brands",
+    canonical: "https://www.umangengineering.com/our-other-brands",
   },
 };
 

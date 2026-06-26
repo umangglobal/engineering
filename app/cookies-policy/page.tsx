@@ -75,10 +75,10 @@ const bodyStyle = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Cookies Policy | Umang Nutraceuticals",
-  description: "Read Umang Nutraceuticals's Cookies Policy to find out how we use cookies to enhance your browsing experience and maintain your privacy online.",
+  title: "Cookies Policy | Umang Engineering",
+  description: "Learn how UMANG Engineering uses cookies, analytics tools, and tracking technologies to optimize website performance, personalize user experiences, and ensure secure browsing.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/cookies-policy",
+    canonical: "https://www.umangengineering.com/cookies-policy",
   },
 };
 
@@ -109,7 +109,7 @@ export default function CookiesPolicyPage() {
 
           {/* Intro */}
           <Typography sx={bodyStyle}>
-            This Cookies Policy explains how Umang Nutraceuticals ("we", "our", or "us") uses cookies and similar technologies on our website to improve your browsing experience, analyze traffic, and personalize content.
+            This Cookies Policy explains how Umang Engineering ("we", "our", or "us") uses cookies and similar technologies on our website to improve your browsing experience, analyze traffic, and personalize content.
           </Typography>
 
           {/* Sections */}

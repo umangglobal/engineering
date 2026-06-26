@@ -78,10 +78,10 @@ const cardData = [
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Design & Print Flyers Easily | Umang Nutraceuticals",
-  description: "Design and print eye-catching flyers with ease at Umang Nutraceuticals. Discover user-friendly tools and professional quality for all your promotional needs.",
+  title: "Design & Print Flyers Easily | Umang Engineering",
+  description: "Design and print eye-catching flyers with ease at Umang Engineering. Discover user-friendly tools and professional quality for all your promotional needs.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/flyers",
+    canonical: "https://www.umangengineering.com/flyers",
   },
 };
 
@@ -98,7 +98,7 @@ export default function FlyersPage() {
       <BannerCommon
         BreadcrumbsUrls={BreadcrumbsUrls}
         BreadcrumbsCurrent="Flyers"
-        BannerImg="resources/Flyers-banner.png"
+        BannerImg="resources/Flyers-banner.webp"
         BannerHeading="Flyers"
         BannerCaption="Formulate. Optimize. Deliver."
       />

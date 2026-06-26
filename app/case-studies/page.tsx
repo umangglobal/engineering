@@ -24,10 +24,10 @@ const CaseStudiesPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Case Studies | Umang Nutraceuticals",
-  description: "Explore in-depth case studies from Umang Nutraceuticals, showcasing innovative solutions and real-world applications in particle technology.",
+  title: "Case Studies | Umang Engineering",
+  description: "Explore in-depth case studies from Umang Engineering, showcasing innovative solutions and real-world applications in particle technology.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/case-studies",
+    canonical: "https://www.umangengineering.com/case-studies",
   },
 };
 

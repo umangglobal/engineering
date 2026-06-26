@@ -16,17 +16,17 @@ const BreadcrumbsUrls = [
 
 const cardData = [
   {
-    title: "Nutraceutical Brochure",
-    description: "Explore our range of encapsulated nutraceutical ingredients, available in multiple delivery formats for diverse application purposes.",
+    title: "Engineering Brochure",
+    description: "Download the latest UMANG Global Equipment catalogue to explore our pharmaceutical, nutraceutical, and industrial manufacturing equipment, technical specifications, and turnkey engineering solutions.",
     img: "/assets/images/resources/catalog.webp",
-    ctr_url: "/assets/pdf/Nutraceutical.pdf",
+    ctr_url: "/assets/pdf/Engineering.pdf",
   },
-  {
-    title: "Sample Brochure: Nutraceutical",
-    description: "Get actual visuals of our finished encapsulated products to understand their appearance and behavior in various formulations. Contact us to request a physical brochure.",
-    img: "/assets/images/resources/sample.webp",
-    ctr_url: "/assets/pdf/nutra-sample.pdf",
-  },
+  // {
+  //   title: "Sample Brochure: Nutraceutical",
+  //   description: "Get actual visuals of our finished encapsulated products to understand their appearance and behavior in various formulations. Contact us to request a physical brochure.",
+  //   img: "/assets/images/resources/sample.webp",
+  //   ctr_url: "/assets/pdf/nutra-sample.pdf",
+  // },
   // {
   //   title: "Sample Brochure: Excipients",
   //   description: "Experience the look and feel of our wide range of Excipients, Ingredients, Edible items and encapsulated solutions for Various segments. Contact us to request a physical brochure.",
@@ -45,10 +45,10 @@ const CatalogueBrochuresPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Catalogue Brochures | Umang Nutraceuticals",
-  description: "Explore Umang Nutraceuticals's comprehensive catalogue brochures, showcasing innovative solutions and cutting-edge research in particle technology.",
+  title: "Download Engineering Equipment Catalogue | Umang Engineering",
+  description: "Access the UMANG engineering Equipment catalogue featuring pharmaceutical processing equipment, granulation systems, coating machines, pelletization solutions, and complete manufacturing lines.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/catalogue-brochures",
+    canonical: "https://www.umangengineering.com/catalogue-brochures",
   },
 };
 
@@ -65,7 +65,7 @@ export default function CatalogueBrochuresPage() {
       <BannerCommon
         BreadcrumbsUrls={BreadcrumbsUrls}
         BreadcrumbsCurrent="Catalogue Brochures"
-        BannerImg="resources/CatalogueBrochures-banner.png"
+        BannerImg="resources/CatalogueBrochures-banner.webp"
         BannerHeading="Catalogue Brochures"
         BannerCaption="Formulate. Optimize. Deliver."
       />

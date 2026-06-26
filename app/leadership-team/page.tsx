@@ -49,10 +49,10 @@ const LeadershipTeamPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Lead Your Team to Success | Umang Nutraceuticals",
-  description: "Team's potential with Umang Nutraceuticals. Discover strategies and insights to lead effectively and achieve success together.",
+  title: "Lead Your Team to Success | Umang Engineering",
+  description: "Team's potential with Umang Engineering. Discover strategies and insights to lead effectively and achieve success together.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/leadership-team",
+    canonical: "https://www.umangengineering.com/leadership-team",
   },
 };
 

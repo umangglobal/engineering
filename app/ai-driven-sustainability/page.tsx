@@ -63,10 +63,10 @@ const sections = [
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "AI Driven Sustainability | Umang Nutraceuticals",
-  description: "Discover how AI-driven solutions from Umang Nutraceuticals are revolutionizing sustainability. Explore innovative technologies for a greener future.",
+  title: "AI-Powered Sustainable Manufacturing | UMANG Engineering",
+  description: "Discover how AI-powered manufacturing solutions from UMANG Engineering drive sustainability through intelligent automation, resource optimization, energy efficiency, and reduced environmental impact.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/ai-driven-sustainability",
+    canonical: "https://www.umangengineering.com/ai-driven-sustainability",
   },
 };
 

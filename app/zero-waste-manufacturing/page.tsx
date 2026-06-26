@@ -76,10 +76,10 @@ const bodyStyle = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Zero Waste Manufacturing | Umang Nutraceuticals",
-  description: "Learn about Umang Nutraceuticals's commitment to zero waste manufacturing, where advanced techniques meet environmental responsibility for a greener tomorrow.",
+  title: "Zero Waste Manufacturing | Umang Engineering",
+  description: "Learn about Umang Engineering's commitment to zero waste manufacturing, where advanced techniques meet environmental responsibility for a greener tomorrow.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/zero-waste-manufacturing",
+    canonical: "https://www.umangengineering.com/zero-waste-manufacturing",
   },
 };
 

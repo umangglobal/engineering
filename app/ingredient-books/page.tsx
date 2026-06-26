@@ -72,10 +72,10 @@ const cardData = [
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Discover Essential Ingredient Books | Umang Nutraceuticals",
-  description: "Discover a world of essential ingredient books at Umang Nutraceuticals. Elevate your understanding of pharma with expert insights and resources.",
+  title: "Discover Essential Ingredient Books | Umang Engineering",
+  description: "Discover a world of essential ingredient books at Umang Engineering. Elevate your understanding of pharma with expert insights and resources.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/ingredient-books",
+    canonical: "https://www.umangengineering.com/ingredient-books",
   },
 };
 

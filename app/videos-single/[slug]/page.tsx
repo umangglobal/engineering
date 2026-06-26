@@ -22,9 +22,9 @@ const BreadcrumbsUrls = [
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   return {
-    title: `${slug.replace(/-/g, " ")} | Umang Nutraceuticals`,
+    title: `${slug.replace(/-/g, " ")} | Umang Engineering`,
     alternates: {
-      canonical: `https://www.umangnutraceuticals.com/videos-single/${slug}`,
+      canonical: `https://www.umangengineering.com/videos-single/${slug}`,
     },
   };
 }

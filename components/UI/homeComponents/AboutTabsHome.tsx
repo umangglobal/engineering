@@ -27,7 +27,7 @@ export const AboutTabsHome = () => {
 
   const tabData: TabData[] = [
     {
-      label: "About Umang Nutraceuticals",
+      label: "About Umang Engineering",
       content: `Umang Engineering is the engineering division of the Umang Global Group, specializing in engineering services for designing, developing, and manufacturing cutting-edge process equipment for the pharmaceutical, nutraceutical, food, chemical, and other related industries. Leveraging years of engineering expertise and innovation, our company manufactures high-quality machinery that enables seamless manufacturing processes.
                 \n\n
                 As part of the Umang Global Group, Umang Engineering has the distinct advantage of extensive experience across industries, including pharmaceuticals, nutraceuticals, personal care, home care, cosmetics, and many others. Such knowledge of the industry allows us to create products that meet the requirements of today’s production facilities.
@@ -37,7 +37,7 @@ export const AboutTabsHome = () => {
                 Umang Engineering believes in improving manufacturing technologies and providing industries with cutting-edge, precision-engineered products that increase their productivity and sustainability.`,
       icon: BubbleChatIcon,
       img: "abouthome.webp",
-      imgAlt: "Umang Nutraceuticals division of Umang Global Group office space",
+      imgAlt: "Umang Engineering division of Umang Global Group office space",
       url: "/about-us",
     },
     {

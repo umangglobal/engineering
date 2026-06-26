@@ -38,7 +38,7 @@ const policySections: PolicySection[] = [
   },
   {
     heading: "3. Intellectual Property",
-    content: "All content, including text, logos, graphics, visuals, trademarks, and product information on the site, is the intellectual property of Umang Nutraceuticals and may not be copied, shared, or modified without prior written permission.",
+    content: "All content, including text, logos, graphics, visuals, trademarks, and product information on the site, is the intellectual property of Umang Engineering and may not be copied, shared, or modified without prior written permission.",
   },
   {
     heading: "4. Product Information",
@@ -46,15 +46,15 @@ const policySections: PolicySection[] = [
   },
   {
     heading: "5. User Submissions",
-    content: "Any feedback or materials submitted to us are to be used by Umang Nutraceuticals. We hold the rights to use them without the obligation of compensation or attribution.",
+    content: "Any feedback or materials submitted to us are to be used by Umang Engineering. We hold the rights to use them without the obligation of compensation or attribution.",
   },
   {
     heading: "6. Disclaimer of Warranties",
-    content: `The website and its content are provided "as is" without warranties of any kind, whether express or implied. Umang Nutraceuticals makes no representation or warranties regarding the accuracy, completeness, or reliability of any content or product information.`,
+    content: `The website and its content are provided "as is" without warranties of any kind, whether express or implied. Umang Engineering makes no representation or warranties regarding the accuracy, completeness, or reliability of any content or product information.`,
   },
   {
     heading: "7. Limitation of Liability",
-    content: "Umang Nutraceuticals shall not be responsible for any losses or damages arising from access to or use of this website, including direct, indirect, incidental, or consequential damages, system failures, or loss of data, arising from the use or inability to use this site.",
+    content: "Umang Engineering shall not be responsible for any losses or damages arising from access to or use of this website, including direct, indirect, incidental, or consequential damages, system failures, or loss of data, arising from the use or inability to use this site.",
   },
   {
     heading: "8. Links to Third-Party Sites",
@@ -70,7 +70,7 @@ const policySections: PolicySection[] = [
   },
   {
     heading: "11. Changes to Terms",
-    content: "Umang Nutraceuticals reserves the right to amend these Terms at any time. Continued use of the website following updates signifies acceptance of the revised terms.",
+    content: "Umang Engineering reserves the right to amend these Terms at any time. Continued use of the website following updates signifies acceptance of the revised terms.",
   },
   {
     heading: "12. Contact Us",
@@ -99,10 +99,10 @@ const bodyStyle = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Read Our Site Terms & Conditions | Umang Nutraceuticals",
-  description: "Read the terms and conditions for Umang Nutraceuticals to understand your rights and responsibilities. Navigate our site with confidence and clarity.",
+  title: "Read Our Site Terms & Conditions | Umang Engineering",
+  description: "Read the terms and conditions for Umang Engineering to understand your rights and responsibilities. Navigate our site with confidence and clarity.",
   alternates: {
-    canonical: "https://www.umangNutraceuticals.com/terms-conditions",
+    canonical: "https://www.umangengineering.com/terms-conditions",
   },
 };
 
@@ -133,7 +133,7 @@ export default function TermsConditionsPage() {
 
           {/* Intro */}
           <Typography sx={bodyStyle}>
-            Welcome to Umang Nutraceuticals. By accessing or using our website (the “Site”), you agree to comply with and be bound by the following terms and conditions. Please read them carefully.    
+            Welcome to Umang Engineering. By accessing or using our website (the “Site”), you agree to comply with and be bound by the following terms and conditions. Please read them carefully.    
           </Typography>
 
           {/* Sections */}

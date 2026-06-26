@@ -90,10 +90,10 @@ const EncapsulationTechnologyPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Umang Encapsulation Technology | Umang Nutraceuticals",
+  title: "Umang Encapsulation Technology | Umang engineering",
   description: "Explore cutting-edge Umang Encapsulation Technology and pharma, designed to optimize formulations and improve efficiency in various applications.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/encapsulation-technology",
+    canonical: "https://www.umangengineering.com/encapsulation-technology",
   },
 };
 

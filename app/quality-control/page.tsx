@@ -52,10 +52,10 @@ const QualityControlPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Top Quality Control Methods | Umang Nutraceuticals",
-  description: "Effective quality control methods with Umang Nutraceuticals. Elevate your standards and achieve superior results in your production processes.",
+  title: "Top Quality Control Methods | Umang Engineering",
+  description: "Effective quality control methods with Umang Engineering. Elevate your standards and achieve superior results in your production processes.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/quality-control",
+    canonical: "https://www.umangengineering.com/quality-control",
   },
 };
 

@@ -24,10 +24,10 @@ const ProductPageSchema = {
 
 // ---- Metadata (replaces <Meta>) ----
 export const metadata: Metadata = {
-  title: "Quality Product Line | Umang Nutraceuticals",
-  description: "Umang Nutraceuticals offers a diverse range of high-quality products tailored for excellence. Enhance your research with our trusted solutions now!",
+  title: "Manufacturing Equipment & Machines | Umang Engineering",
+  description: "Advanced manufacturing equipment from UMANG Engineering. Discover innovative solutions for granulation, extrusion, pelletization, coating, drying, and turnkey production systems.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/product",
+    canonical: "https://www.umangengineering.com/product",
   },
 };
 

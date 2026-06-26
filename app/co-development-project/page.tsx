@@ -25,10 +25,10 @@ const CoDevelopmentProjectPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Co-Development: Grow Your Ideas | Umang Nutraceuticals",
-  description: "Umang Nutraceuticals can help you co-develop innovative ideas. Collaborate with experts to turn your concepts into reality today!",
+  title: "Co-Development Projects | Custom Engineering Solutions | Umang Engineering",
+  description: "Partner with UMANG Engineering for co-development projects. Collaborate on innovative pharmaceutical and nutraceutical manufacturing solutions, custom equipment design, process optimization, and scalable production technologies.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/co-development-project",
+    canonical: "https://www.umangengineering.com/co-development-project",
   },
 };
 

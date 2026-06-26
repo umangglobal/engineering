@@ -45,11 +45,11 @@ interface VideoSchemaProps {
 export const OrganizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Umang Nutraceuticals",
-  "legalName": "Umang Nutraceuticals Pvt. Ltd.",
-  "url": "https://www.umangnutraceuticals.com",
-  "logo": "https://www.umangnutraceuticals.com/assets/images/logo.svg",
-  "image": "https://www.umangnutraceuticals.com/assets/images/home/abouthome.webp",
+  "name": "Umang Engineering",
+  "legalName": "Umang Global Group Pvt. Ltd.",
+  "url": "https://www.umangengineering.com",
+  "logo": "https://www.umangengineering.com/assets/images/logo.svg",
+  "image": "https://www.umangengineering.com/assets/images/home/abouthome.webp",
   "description": "Advanced customizable encapsulation solutions for personal care formulations",
   "foundingDate": "2015-01-01",
   "address": {
@@ -79,8 +79,8 @@ export const OrganizationSchema = {
 export const WebSiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Umang Nutraceuticals",
-  url: "https://www.umangnutraceuticals.com/",
+  "name": "Umang Engineering",
+  url: "https://www.umangengineering.com/",
 };
 
 export const createBreadcrumbSchema = (items: BreadcrumbItem[]) => ({
@@ -100,7 +100,7 @@ export const createProductSchema = ({
   image,
   url,
   segment,
-  brand = "Umang Nutraceuticals",
+  brand = "Umang Engineering",
 }: ProductSchemaProps) => ({
   "@context": "https://schema.org",
   "@type": "Product",
@@ -136,7 +136,7 @@ export const createArticleSchema = ({
   "dateModified": dateModified,
   "author": {
     "@type": "Organization",
-    "name": "Umang Nutraceuticals",
+    "name": "Umang Engineering",
   },
   "publisher": OrganizationSchema,
 });
@@ -161,7 +161,7 @@ export const createVideoSchema = ({
   embedUrl,
   uploadDate,
   duration,
-  publisherName = "Umang Nutraceuticals",
+  publisherName = "Umang Engineering",
 }: VideoSchemaProps) => ({
   "@context": "https://schema.org",
   "@type": "VideoObject",

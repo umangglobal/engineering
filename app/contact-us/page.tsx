@@ -31,10 +31,10 @@ const ContactUsPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Contact Us | Umang Nutraceuticals",
-  description: "Umang Nutraceuticals offers pharmaceutical solutions. Contact us now to explore exclusive deals and find what you're looking for.",
+  title: "Contact Umang Engineering | Engineering & Manufacturing Experts",
+  description: "Connect with UMANG Global Equipment for pharmaceutical machinery, turnkey manufacturing solutions, custom engineering projects, product inquiries, and technical assistance.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/contact-us",
+    canonical: "https://www.umangengineering.com/contact-us",
   },
 };
 

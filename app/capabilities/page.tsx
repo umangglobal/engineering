@@ -56,10 +56,10 @@ const CapabilitiesPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Our Capabilities Explained | Umang Nutraceuticals",
-  description: "Explore the capabilities of Umang Nutraceuticals. From research to application, see how our expertise in particle technology can benefit your industry.",
+  title: "Engineering & Manufacturing Capabilities | Umang Engineering",
+  description: "Discover UMANG Global Equipment's advanced engineering, manufacturing, automation, and process solutions. We provide high-quality equipment and turnkey systems for pharmaceutical and nutraceutical production.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/capabilities",
+    canonical: "https://www.umangengineering.com/capabilities",
   },
 };
 

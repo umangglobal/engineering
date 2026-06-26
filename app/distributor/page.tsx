@@ -28,11 +28,11 @@ const CardData: CardItem[] = [
   },
   {
     title: "World Wide Network",
-    description: "Umang Nutraceuticals has established a strong global footprint, serving clients across diverse markets. Our extensive distribution network ensures seamless access to innovative products and reliable supply chains. With trusted partnerships worldwide, we deliver consistent quality and support wherever your business operates.",
+    description: "Umang Engineering has established a strong global footprint, serving clients across diverse markets. Our extensive distribution network ensures seamless access to innovative products and reliable supply chains. With trusted partnerships worldwide, we deliver consistent quality and support wherever your business operates.",
   },
   {
     title: <>44 Years of Experience</>,
-    description: "For over four decades, Umang Nutraceuticals has been shaping innovation with encapsulation technology and bringing unmatched knowledge, technical expertise, and consistency to every project. Our journey reflects a commitment to quality, innovation, and customer success, making us a trusted partner for leading brands worldwide.",
+    description: "For over four decades, Umang Engineering has been shaping innovation with engineering technology and bringing unmatched knowledge, technical expertise, and consistency to every project. Our journey reflects a commitment to quality, innovation, and customer success, making us a trusted partner for leading brands worldwide.",
   },
 ];
 
@@ -46,10 +46,10 @@ const DistributorsPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Connect Trusted Distributors | Umang Nutraceuticals",
-  description: "Umang Nutraceuticals connects you with trusted distributors. Explore our network to find reliable partners and elevate your pharma projects.",
+  title: "Connect Trusted Distributors | Umang Engineering",
+  description: "Umang Engineering connects you with trusted distributors. Explore our network to find reliable partners and elevate your engineering projects.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/distributor",
+    canonical: "https://www.umangengineering.com/distributor",
   },
 };
 
@@ -77,15 +77,15 @@ export default function DistributorsPage() {
             formType="contact"
             HeadingBlack="Become a"
             HeadingColor="Distributor"
-            SubHeading="Interested in our formulations or looking for bulk products? We're here to help, send us a message to get started."
+            SubHeading="Interested in our products? We're here to help, send us a message to get started."
           />
           <FormContactSider ContactImage="distributor" />
         </Box>
       </Container>
 
       <TextBannerSection
-        TextBannerHeading="Perks of becoming distributor with Umang Nutraceuticals"
-        TextBannerCaption="Partnering with us means access to innovative encapsulation solutions, bulk supply at competitive pricing, and products backed by global quality standards. We support our distributors with customization options, technical guidance, and long-term growth opportunities."
+        TextBannerHeading="Perks of becoming distributor with Umang Engineering"
+        TextBannerCaption="Partnering with us means access to innovative engineering solutions, bulk supply at competitive pricing, and products backed by global quality standards. We support our distributors with customization options, technical guidance, and long-term growth opportunities."
       />
 
       <ContactCards CardData={CardData} />

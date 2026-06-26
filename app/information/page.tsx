@@ -32,10 +32,10 @@ const InformationPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Clear Information Available | Umang Nutraceuticals",
+  title: "Clear Information Available | Umang Engineering",
   description: "Get clear insights into pharma with Umang. Our comprehensive resources provide the information you need to excel in your studies and research.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/information",
+    canonical: "https://www.umangengineering.com/information",
   },
 };
 

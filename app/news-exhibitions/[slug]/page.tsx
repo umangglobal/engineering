@@ -21,10 +21,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const data = await fetchNewsExhibitionsDescription(slug);
 
   return {
-    title: (data?.ne_title as string) ?? "News & Exhibitions | Umang Nutraceuticals",
-    description: (data?.ne_meta_desc as string) ?? "Keep up with the latest in Nutra!",
+    title: (data?.ne_title as string) ?? "News & Exhibitions | Umang Engineering",
+    description: (data?.ne_meta_desc as string) ?? "Keep up with the latest in Engineering!",
     alternates: {
-      canonical: `https://www.umangnutraceuticals.com/news-exhibitions/${slug}`,
+      canonical: `https://www.umangen.com/news-exhibitions/${slug}`,
     },
   };
 }
@@ -62,14 +62,14 @@ export default async function NewsExhibitionsPage({ params }: Props) {
     { title: "Resources",          url: "/resources"                                                         },
     { title: "Media",              url: "/media"                                                             },
     { title: "News & Exhibitions", url: "/news-exhibition"                                                   },
-    { title: neTitle,              url: `https://www.umangnutraceuticals.com/news-exhibitions/${neSlug}`    },
+    { title: neTitle,              url: `https://www.umangengineering.com/news-exhibitions/${neSlug}`    },
   ];
 
   const NewsPageSchemaData = {
     headline:      neTitle,
     description:   neMetaDesc,
-    image:         `https://www.umangnutraceuticals.com/assets/images/exhibitions_news/${neBanner}`,
-    url:           `https://www.umangnutraceuticals.com/news-exhibitions/${neSlug}`,
+    image:         `https://www.umangengineering.com/assets/images/exhibitions_news/${neBanner}`,
+    url:           `https://www.umangengineering.com/news-exhibitions/${neSlug}`,
     datePublished: neDate,
     dateModified:  neUpdatedDate,
   };

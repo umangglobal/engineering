@@ -60,7 +60,7 @@ const sustainedData: SustainedItem[] = [
   },
   {
     title: "Zero Waste Manufacturing",
-    description: "Umang Nutraceuticals is committed to achieving zero-waste manufacturing by 2030 through the recycling, reuse, and repurposing of materials.",
+    description: "Umang Engineering is committed to achieving zero-waste manufacturing by 2030 through the recycling, reuse, and repurposing of materials.",
     buttonTitle: "See the Plan",
     iconKey: "GreenEcoEnergyIcon",
     url: "/zero-waste-manufacturing",
@@ -77,10 +77,10 @@ const SustainabilityPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Simple Sustainability Ideas | Umang Nutraceuticals",
-  description: "Join Umang Nutraceuticals for innovative sustainability ideas. Transform your daily habits with simple steps that benefit both you and the planet.",
+  title: "Simple Sustainability Ideas | Umang Engineering",
+  description: "Join Umang Engineering for innovative sustainability ideas. Transform your daily habits with simple steps that benefit both you and the planet.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/sustainability",
+    canonical: "https://www.umangengineering.com/sustainability",
   },
 };
 
@@ -110,7 +110,7 @@ export default function SustainabilityPage() {
             <Box
               component="img"
               src="/assets/images/sustainability/sustainability-main.png"
-              alt="Sustainability at Umang Nutraceuticals"
+              alt="Sustainability at Umang Engineering"
               sx={{ width: "100%", height: { xs: "466px", md: "530px" }, background: "#DDE1E6", borderRadius: "36px", position: "relative" }}
             />
 
@@ -152,10 +152,10 @@ export default function SustainabilityPage() {
           <Box display="flex" justifyContent="space-around" alignItems="center" pt="20px">
             <Box width="100%" maxWidth={1134} display="flex" flexDirection="column" gap={4}>
               <Typography sx={{ color: "#091610", fontSize: "16px", fontFamily: "Jost", fontWeight: 400, lineHeight: "1.5", paddingTop: "15px", whiteSpace: "pre-line", py: 2 }}>
-                {`"At Umang Nutraceuticals, we are of the firm belief that sustainability and innovation are two sides of the same coin. With over four decades of expertise in high-tech nutraceutical manufacturing and encapsulation technology, we are committed to providing efficient and sustainable solutions for the nutraceutical, pharmaceutical, and personal care industries
-\nAt Umang Nutraceuticals, our production process is geared towards optimizing resource utilization, minimizing energy consumption, and ensuring maximum stability and efficacy of our active ingredients. This not only increases bioavailability but also reduces the formulation and thereby helps in waste reduction. Through our expertise in precision engineering and the use of materials and technology, we are committed to an environmentally friendly production process.
-\nWe are passionately investing in green technologies, biologically recyclable packaging materials, and plant-based excipients. We are optimizing our operations to take us closer and closer to zero-waste manufacturing. With every nutraceutical application and encapsulated form of delivery that we manufacture, our passion is to provide more intelligent, safe, and sustainable pharmaceutical solutions.
-\nTogether with our entire team of Umang Nutraceuticals, we are working with our partners and our clients to contribute to sustainable innovation in making the future a healthier place for our planet and its inhabitants."`}
+                {`"At Umang Engineering, we are of the firm belief that sustainability and innovation are two sides of the same coin. With over four decades of expertise in high-tech engineering and manufacturing technology, we are committed to providing efficient and sustainable solutions for the engineering, pharmaceutical, and personal care industries
+\nAt Umang Engineering, our production process is geared towards optimizing resource utilization, minimizing energy consumption, and ensuring maximum stability and efficacy of our active ingredients. This not only increases bioavailability but also reduces the formulation and thereby helps in waste reduction. Through our expertise in precision engineering and the use of materials and technology, we are committed to an environmentally friendly production process.
+\nWe are passionately investing in green technologies, biologically recyclable packaging materials, and plant-based excipients. We are optimizing our operations to take us closer and closer to zero-waste manufacturing. With every engineering application and encapsulated form of delivery that we manufacture, our passion is to provide more intelligent, safe, and sustainable pharmaceutical solutions.
+\nTogether with our entire team of Umang Engineering, we are working with our partners and our clients to contribute to sustainable innovation in making the future a healthier place for our planet and its inhabitants."`}
               </Typography>
             </Box>
           </Box>
@@ -170,7 +170,7 @@ export default function SustainabilityPage() {
               mt: "20px",
               borderRadius: "20px",
               gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
-              background: "#C3E9ED",
+              background: "#C7EADF",
             }}
           >
             {sustainedData.map((susdata, index) => {

@@ -92,7 +92,7 @@ export default function Header() {
               <Box
                 component="img"
                 sx={{ height: 64, width: "auto" }}
-                alt="Umang Nutraceuticals Logo"
+                alt="Umang Engineering Logo"
                 src="/assets/images/logo.svg"
               />
             </Link>

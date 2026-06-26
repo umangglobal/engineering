@@ -36,10 +36,10 @@ const PlantingForEveryLifePageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Planting For Every Life | Umang Nutraceuticals",
-  description: "At Umang Nutraceuticals, we offer planting solutions designed for every lifestyle. Join us to cultivate your green space with expert guidance and quality tools.",
+  title: "Planting For Every Life | Umang Engineering",
+  description: "At Umang Engineering, we offer planting solutions designed for every lifestyle. Join us to cultivate your green space with expert guidance and quality tools.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/planting-for-every-life",
+    canonical: "https://www.umangengineering.com/planting-for-every-life",
   },
 };
 

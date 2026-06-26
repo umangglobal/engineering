@@ -21,24 +21,24 @@ const cardData = [
   },
   {
     title: "Flyers",
-    img: "/assets/images/resources/sample.webp",
+    img: "/assets/images/resources/f.webp",
     ctr_url: "/flyers",
   },
-  {
-    title: "Ingredients Books",
-    img: "/assets/images/resources/books.webp",
-    ctr_url: "/ingredient-books",
-  },
-  {
-    title: "Formulations",
-    img: "/assets/images/resources/formulation-book.webp",
-    ctr_url: "/formulations",
-  },
-  {
-    title: "White Papers",
-    img: "/assets/images/resources/downloads5.png",
-    ctr_url: "/white-papers",
-  },
+  // {
+  //   title: "Ingredients Books",
+  //   img: "/assets/images/resources/books.webp",
+  //   ctr_url: "/ingredient-books",
+  // },
+  // {
+  //   title: "Formulations",
+  //   img: "/assets/images/resources/formulation-book.webp",
+  //   ctr_url: "/formulations",
+  // },
+  // {
+  //   title: "White Papers",
+  //   img: "/assets/images/resources/downloads5.png",
+  //   ctr_url: "/white-papers",
+  // },
   {
     title: "Case Studies",
     img: "/assets/images/resources/downloads6.png",
@@ -56,10 +56,10 @@ const DownloadsPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Get The Latest Downloads | Umang Nutraceuticals",
+  title: "Get The Latest Downloads | Umang Engineering",
   description: "Get the latest downloads on pharma at Umang. Enhance your research and stay informed with our up-to-date resources and expert insights.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/downloads",
+    canonical: "https://www.umangengineering.com/downloads",
   },
 };
 

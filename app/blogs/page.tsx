@@ -26,10 +26,10 @@ const BlogsPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Blogs: Read Our Latest Insights | Umang Nutraceuticals",
-  description: "Discover the latest insights in pharma through our engaging blogs. Stay informed and explore new ideas with Umang Nutraceuticals.",
+  title: "Engineering & Manufacturing Blogs | UMANG Engineering",
+  description: "Read expert blogs on pharmaceutical machinery, manufacturing technologies, process optimization, sustainability, automation, and engineering innovations from UMANG Global Equipment.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/blogs",
+    canonical: "https://www.umangengineering.com/blogs",
   },
 };
 

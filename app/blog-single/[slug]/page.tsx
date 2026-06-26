@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: data?.g_title ?? "Blog",
     description: data?.g_meta_description ?? "",
     alternates: {
-      canonical: `https://www.umangnutraceuticals.com/blog-single/${slug}`,
+      canonical: `https://www.umangengineering.com/blog-single/${slug}`,
     },
   };
 }
@@ -68,8 +68,8 @@ export default async function BlogSinglePage({ params }: Props) {
   const blogData = {
     headline:     data.g_title         as string,
     description:  data.g_meta_description as string,
-    image:        `https://www.umangnutraceuticals.com/assets/images/blogs/${data.g_img}`,
-    url:          `https://www.umangnutraceuticals.com/blog-single/${data.g_slug}`,
+    image:        `https://www.umangengineering.com/assets/images/blogs/${data.g_img}`,
+    url:          `https://www.umangengineering.com/blog-single/${data.g_slug}`,
     datePublished: data.g_date         as string,
     dateModified:  data.g_updated_date as string,
   };

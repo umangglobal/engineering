@@ -25,10 +25,10 @@ const BulkContractManufacturingPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Bulk Manufacturing: Get Quotes Now | Umang Nutraceuticals",
-  description: "Umang Nutraceuticals offers quick quotes for bulk manufacturing. Elevate your production capabilities with our innovative solutions and expert support.",
+  title: "Bulk Manufacturing Equipment & Solutions  UMANG Engineering",
+  description: "Explore high-performance bulk manufacturing equipment designed for personal care, pharmaceutical and nutraceutical production. Enhance productivity, process efficiency, and product quality with UMANG Global Equipment.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/bulk-contract-manufacturing",
+    canonical: "https://www.umangengineering.com/bulk-contract-manufacturing",
   },
 };
 
@@ -90,13 +90,13 @@ export default function BulkContractManufacturingPage() {
                   whiteSpace: "pre-line",
                 }}
               >
-                {`""Since its very beginning, Umang Engineering has developed and manufactured advanced process equipment for the pharmaceutical, nutraceutical, food, chemical, and other related sectors. This equipment is well known worldwide for its precision, reliability, and consistent performance.
+                {`Since its very beginning, Umang Engineering has developed and manufactured advanced process equipment for the pharmaceutical, nutraceutical, food, chemical, and other related sectors. This equipment is well known worldwide for its precision, reliability, and consistent performance.
 
 Through many years of successful practice, we have earned a strong reputation as a company that delivers excellent engineering, top-quality production, and an innovative approach to meeting customers' needs. All our systems are manufactured to the highest quality standards, ensuring durability, effectiveness, and cost-effectiveness.
 
 Our company possesses a broad knowledge base covering process technologies such as extrusion, spheronization, granulation, fluid-bed process equipment, coating and layering, pelletizing, and oral thin-film manufacturing. We offer both standalone equipment and complete process lines that will suit your production needs.
 
-We can help you optimize your process, increase productivity, and gain manufacturing excellence by providing innovative equipment due to our many years of engineering experience.""`}
+We can help you optimize your process, increase productivity, and gain manufacturing excellence by providing innovative equipment due to our many years of engineering experience.`}
               </Typography>
             </Grid>
 

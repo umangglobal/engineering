@@ -41,7 +41,7 @@ export const VideoSingleCard = ({ videoSlug }: VideoSingleCardProps) => {
     thumbnailUrl: video.thumbnail,
     embedUrl: video.url,
     uploadDate: video.isoDate,
-    publisherName: "Umang Nutraceuticals",
+    publisherName: "Umang Engineering",
   });
 
   return (

@@ -23,10 +23,10 @@ const MagazinePageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Future of Magazine Publishing | Umang Nutraceuticals",
-  description: "Explore the future of magazine publishing with Umang Nutraceuticals. Discover innovative trends, technologies, and insights shaping the industry.",
+  title: "Future of Magazine Publishing | Umang Engineering",
+  description: "Explore the future of magazine publishing with Umang Engineering. Discover innovative trends, technologies, and insights shaping the industry.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/magazine",
+    canonical: "https://www.umangengineering.com/magazine",
   },
 };
 

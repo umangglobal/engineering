@@ -51,7 +51,7 @@ const WhitePapersPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Engineering Solutions | Umang Nutraceuticals",
+  title: "Engineering Solutions | Umang Engineering",
   description: "Advanced engineering solutions for pharmaceutical, nutraceutical, food and chemical industries.",
   alternates: {
     canonical: "https://www.umangengineering.com/solutions",

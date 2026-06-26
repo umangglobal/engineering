@@ -42,10 +42,10 @@ const CertificatesPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Professional Certificates | Umang Nutraceuticals",
-  description: "Advance your knowledge and career with Umang Nutraceuticals's Professional Certificates. Discover specialized training that sets you apart in the industry.",
+  title: "Professional Certificates | Umang engineering",
+  description: "Advance your knowledge and career with Umang engineering's Professional Certificates. Discover specialized training that sets you apart in the industry.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/certificates",
+    canonical: "https://www.umangengineering.com/certificates",
   },
 };
 
@@ -70,7 +70,7 @@ export default function CertificatesPage() {
       <Container sx={{ py: 5 }}>
         <Grid container spacing={2} justifyContent={{ xs: "space-around", md: "start" }}>
           {cardData.map((data, index) => (
-            <Grid size={{ xs: 12, sm: 6, md: 6 }} key={index}>
+            <Grid size={{ xs: 12, sm: 4, md: 4 }} key={index}>
               <CommonCardsOne cardData={data} />
             </Grid>
           ))}

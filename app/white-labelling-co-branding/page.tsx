@@ -25,10 +25,10 @@ const WhiteLabellingCoBrandingPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "White Labeling & Co-Branding Partner | Umang Nutraceuticals",
-  description: "Partner with Umang Nutraceuticals for exceptional white labeling and co-branding services. Transform your product offerings with our advanced particle solutions.",
+  title: "White Labeling & Co-Branding Partner | Umang Engineering",
+  description: "Partner with Umang Engineering for exceptional white labeling and co-branding services. Transform your product offerings with our advanced particle solutions.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/white-labelling-co-branding",
+    canonical: "https://www.umangengineering.com/white-labelling-co-branding",
   },
 };
 

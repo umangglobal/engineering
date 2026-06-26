@@ -62,10 +62,10 @@ const ServicesPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Expert Services You Can Trust | Umang Nutraceuticals",
-  description: "Trust Umang Nutraceuticals for expert services in particle technology. Our dedicated professionals provide innovative solutions to meet your scientific needs.",
+  title: "Expert Services You Can Trust | Umang Engineering",
+  description: "Trust Umang Engineering for expert services in particle technology. Our dedicated professionals provide innovative solutions to meet your scientific needs.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/services",
+    canonical: "https://www.umangengineering.com/services",
   },
 };
 

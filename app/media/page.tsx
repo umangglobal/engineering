@@ -56,10 +56,10 @@ const MediaPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Content Innovative Media Strategies | Umang Nutraceuticals",
-  description: "Transform your media approach with Umang Nutraceuticals. Learn innovative strategies that captivate audiences and elevate your content to new heights.",
+  title: "Content Innovative Media Strategies | Umang Engineering",
+  description: "Transform your media approach with Umang Engineering. Learn innovative strategies that captivate audiences and elevate your content to new heights.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/media",
+    canonical: "https://www.umangengineering.com/media",
   },
 };
 

@@ -26,10 +26,10 @@ const WhitePapersPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "White Papers for Business | Umang Nutraceuticals",
-  description: "White papers on pharma for business. Enhance your knowledge and drive innovation with Umang Nutraceuticals's expert resources.",
+  title: "White Papers for Business | Umang Engineering",
+  description: "White papers on pharma for business. Enhance your knowledge and drive innovation with Umang Engineering's expert resources.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/white-papers",
+    canonical: "https://www.umangengineering.com/white-papers",
   },
 };
 

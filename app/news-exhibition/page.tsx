@@ -25,10 +25,10 @@ const NewsPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Latest News & Updates | Umang Nutraceuticals",
-  description: "Keep up with the latest in pharma! Visit Umang Nutraceuticals for news, updates, and expert insights on cutting-edge research and discoveries.",
+  title: "Latest News & Updates | Umang Engineering",
+  description: "Keep up with the latest in pharma! Visit Umang Engineering for news, updates, and expert insights on cutting-edge research and discoveries.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/news-exhibition",
+    canonical: "https://www.umangengineering.com/news-exhibition",
   },
 };
 

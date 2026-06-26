@@ -91,10 +91,10 @@ const bodyStyle = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Our Privacy Policy: Clear & Simple | Umang Nutraceuticals",
-  description: "At Umang Nutraceuticals, our privacy policy is straightforward and transparent. Understand how we safeguard your information with clarity and care.",
+  title: "Our Privacy Policy: Clear & Simple | Umang Engineering",
+  description: "At Umang Engineering, our privacy policy is straightforward and transparent. Understand how we safeguard your information with clarity and care.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/privacy-policy",
+    canonical: "https://www.umangengineering.com/privacy-policy",
   },
 };
 

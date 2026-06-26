@@ -84,7 +84,7 @@ export default function CompanyPage() {
       <Container sx={{ py: 5 }}>
         <Grid container spacing={2} justifyContent={{ xs: "space-around", md: "start" }}>
           {cardData.map((data, index) => (
-            <Grid size={{ xs: 12, sm: 6, md: 6 }} key={index}>
+            <Grid size={{ xs: 12, sm: 4, md: 4 }} key={index}>
               <CommonCardsOne cardData={data} />
             </Grid>
           ))}

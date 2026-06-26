@@ -27,10 +27,10 @@ const ExhibitionsPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Exhibitions Happening Soon | Umang Nutraceuticals",
-  description: "Umang Nutraceuticals's next exhibitions are almost here! Prepare for innovation. Get your advance passes. See you there!",
+  title: "Exhibitions Happening Soon | Umang engineering",
+  description: "Umang Engineering's next exhibitions are almost here! Prepare for innovation. Get your advance passes. See you there!",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/exhibitions",
+    canonical: "https://www.umangengineering.com/exhibitions",
   },
 };
 

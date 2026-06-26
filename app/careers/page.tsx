@@ -37,10 +37,10 @@ const CareersPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Explore Top Career Opportunities | Umang Nutraceuticals",
-  description: "Umang Nutraceuticals Explore leading career opportunities and take the first step towards a fulfilling and impactful profession.",
+  title: "Careers at Umang Engineering | Engineering & Manufacturing Jobs",
+  description: "Explore career opportunities at UMANG Global Equipment. Join a leading engineering and manufacturing company and build your future in innovation, automation, pharmaceutical machinery, and industrial solutions.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/careers",
+    canonical: "https://www.umangengineering.com/careers",
   },
 };
 

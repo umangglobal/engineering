@@ -8,8 +8,8 @@ export default function robots(): MetadataRoute.Robots {
       disallow: "/private/",
     },
     sitemap: [
-      "https://www.umangnutraceuticals.com/sitemap.xml",
-      "https://www.umangnutraceuticals.com/video-sitemap.xml",
+      "https://www.umangengineering.com/sitemap.xml",
+      "https://www.umangengineering.com/video-sitemap.xml",
     ],
   };
 }

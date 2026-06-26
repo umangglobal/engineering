@@ -70,7 +70,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: data?.product_meta_title ?? "Product",
     description: data?.product_meta_description ?? "",
     alternates: {
-      canonical: `https://www.umangnutraceuticals.com/product-single/${slug}`,
+      canonical: `https://www.umangengineering.com/product-single/${slug}`,
     },
   };
 }
@@ -165,7 +165,7 @@ export default async function ProductSinglePage({ params }: Props) {
   const formattedFAQ = parseFaq(data.product_faq);
 
   // ---- Schema ----
-  const currentURL = `https://www.umangnutraceuticals.com/product-single/${data.product_slug}`;
+  const currentURL = `https://www.umangengineering.com/product-single/${data.product_slug}`;
 
   // ✅ Single schema object — injected ONCE via script tag below
   // ✅ Never passed to generateMetadata
@@ -177,7 +177,7 @@ export default async function ProductSinglePage({ params }: Props) {
       createProductSchema({
         name: data.product_name,
         description: data.product_meta_description,
-        image: `https://www.umangnutraceuticals.com/assets/images/products/outer-cards/${data.product_active.replace(/ /g, "-")}.webp`,
+        image: `https://www.umangengineering.com/assets/images/products/outer-cards/${data.product_active.replace(/ /g, "-")}.webp`,
         segment: data.product_segment,
         url: currentURL,
       }),
