@@ -35,9 +35,9 @@ const teamMembers: TeamMember[] = [
     name: "Umang Budhraja",
     role: "CEO and MD",
     image: "/assets/images/resources/umang-sir.png",
-    bio: `"With forward-thinking leadership, Umang Budhraja has managed to take the company to newer heights of advanced developments in particle engineering and delivery systems in various segments of pharmaceuticals, personal care, and nutraceuticals. His commitment to innovation and sustainable practices has led to the development of encapsulation solutions that have come to be known for their reliability, consistency, and value for a long time.
+    bio: `"Through his futuristic vision and leadership, Umang Budhraja has propelled the company to new levels of development in machinery, delivery systems, and process engineering technologies across the pharmaceutical, personal care, and nutraceutical sectors, among others. His vision and belief in innovation and sustainability have led to the development of engineering solutions and systems that are reliable, consistent, precise, and valuable over time.
 
-He firmly believes in using advanced technology along with a people-centric approach to achieve meaningful innovation. Through his leadership, he has managed to create a culture that is based on quality, precision, and accountability. With a strong emphasis on scientific understanding being applied to innovation, he has managed to create solutions that not only impact brands but also lives around the world."`,
+He always believes in leveraging technology along with a people-oriented approach to drive innovation. As a result of his leadership, he has created an environment of quality, precision, responsibility, and engineering excellence. Through his vision and belief in innovation powered by science and technology, he has driven innovation that influences not only brands and manufacturing but also the lives of people around the world."`,
     socials: [
       { iconKey: "FaceBookIcon",   url: "https://www.facebook.com/umangglobalgrouppvtltd/" },
       { iconKey: "LinkEdinIcon",   url: "https://www.linkedin.com/in/umangbudhraja/"        },
@@ -49,9 +49,11 @@ He firmly believes in using advanced technology along with a people-centric appr
     name: "Dr. Nidhi Budhraja",
     role: "MD",
     image: "/assets/images/resources/nidhi-maam.png",
-    bio: `"Nidhi Budhraja, the co-founder and one of the main strategic influencers behind the brand, is the epitome of expertise in the field of formulation science, combined with her deep understanding of the changing needs of the consumer. She is one of the main influencers behind the brand, using her expertise to ensure the application of advanced technology in the field of encapsulation to meet the needs of the ever-changing market scenario.
+    bio: `"Nidhi Budhraja, Co-Founder and one of the major visionary strategists at the organization, is highly experienced in the areas of formulation sciences, innovations in products, and market-driven development. Understanding the changing trends and requirements in the industry, she is instrumental in the successful implementation of innovative technologies to cater to the dynamic market demands.
 
-She is a strong believer in the power of collaboration and shared responsibility. She fosters a culture where innovation is fueled by curiosity, accountability, and the desire to learn. She believes in the importance of communication and the power of diverse perspectives to ensure the smooth flow of the product development process. She is the driving force behind the organization to ensure the creation of innovative solutions to shape the future of the personal care industry."`,
+She has a firm belief in the importance of teamwork, shared responsibilities, and continuous learning. She drives teams through her culture of curiosity, innovation, and accountability, allowing them to push boundaries and perform to their highest potential. Through her leadership and direction, she ensures smooth development processes and collaboration.
+
+As an innovator, Nidhi Budhraja has been instrumental in developing innovative solutions which add value to the customers and improve industry standards."`,
     socials: [
       { iconKey: "FaceBookIcon",   url: "https://www.nidhivan.org/ask_dr_nidhi.php" },
       { iconKey: "LinkEdinIcon",   url: "https://www.linkedin.com/in/dr-nidhi"      },
@@ -137,13 +139,13 @@ export const Leaders = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         sx={{
-                          width: "48px",
-                          height: "48px",
+                          width: "45px",
+                          height: "45px",
                           bgcolor: "white",
                           boxShadow: "0px 2px 4px -2px rgba(0,0,0,0.10)",
                         }}
                       >
-                        {Icon && <Icon style={{ width: 20, height: 20 }} />}
+                        {Icon && <Icon style={{ width: 23, height: 23 }} />}
                       </IconButton>
                     );
                   })}

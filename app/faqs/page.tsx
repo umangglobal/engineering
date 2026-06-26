@@ -17,28 +17,28 @@ const BreadcrumbsUrls = [
 
 const FAQdata: FAQItem[] = [
   {
-    title: "What does Umang Nutraceuticals specialize in?",
-    description: "Umang Nutraceuticals focuses on the development and manufacturing of advanced encapsulated ingredients for pharmaceutical formulations, helping improve stability and deliver high-performance solutions.",
+    title: "What does Umang Engineering specialize in?",
+    description: "Umang Engineering is a company that designs, develops, and manufactures innovative process machinery and manufacturing plants for industries such as pharma, nutra, food, chemical, and related sectors. Some of our processes include extrusion, spheronization, fluid-bed processes, granulation, coating, pelletizing, and more.",
     defaultExpanded: "defaultExpanded",
   },
   {
-    title: "Why are encapsulation technologies essential in pharmaceutical formulations?",
-    description: "Encapsulation helps safeguard the sensitive pharmaceutical active ingredients from environmental stress, and reduces ingredient incompatibilities, prevents loss of volatile components, improve handling, and maintains product potency throughout shelf-life.",
+    title: "Why is process engineering important in modern manufacturing?",
+    description: "Advanced process engineering enables maintaining product quality, improving production processes, optimizing resources, and scaling up production. Good equipment design helps industries improve operational reliability and adhere to industry standards.",
     defaultExpanded: "",
   },
   {
-    title: "How can encapsulation improve pharmaceutical product performance?",
-    description: "Encapsulation enhances drug stability, supports controlled or targeted release, minimizes irritation or degradation of active ingredient, and enables development of more efficient and reliable pharmaceutical formulations.",
+    title: "How does Umang Engineering support its partners?",
+    description: "We collaborate with our clients to understand the processes they require and their manufacturing objectives. Through engineering, specialized machinery, technical services, and process optimization, we help our partners improve their productivity and efficiency.",
     defaultExpanded: "",
   },
   {
-    title: "What does Umang Nutraceuticals aim to deliver?",
-    description: "Umang Nutraceuticals aims to deliver customized, high-quality pharmaceutical solutions with enhanced efficacy, speed, and long-term value, supporting its partners with reliable, performance-driven outcomes.",
+    title: "What types of equipment does Umang Engineering offer?",
+    description: "The product range comprises extruders, spheronizers, fluid bed processors, granulators, coating plants, machinery for the production of oral thin films, integrated pelletization lines, and customized solutions that cater to different manufacturing needs.",
     defaultExpanded: "",
   },
   {
-    title: "Where is Umang Pharmaceutical located?",
-    description: "Umang Pharmaceutical is based in India, with its corporate office located at Unit No. 1, 2nd Floor, Vicino (Mega Mall), New Link Road, Oshiwara, Andheri West, Mumbai, Maharashtra 400102.",
+    title: "Where is Umang Engineering located?",
+    description: "Umang Engineering is situated in India, with its headquarters at Unit No. 1, 2nd Floor, Vicino (Mega Mall), New Link Road, Oshiwara, Andheri West, Mumbai, Maharashtra - 400102. With our state-of-the-art manufacturing facilities and engineering capabilities, we serve clients worldwide.",
     defaultExpanded: "",
   },
 ];
@@ -54,8 +54,8 @@ const FAQsPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "FAQs: Get the Info You Need | Umang Nutraceuticals",
-  description: "Get quick answers to your pharma queries with our detailed FAQs. Empower your research and understanding with reliable information at your fingertips!",
+  title: "FAQs: Get the Info You Need | Umang Engineering",
+  description: "Get quick answers to your queries with our detailed FAQs. Empower your research and understanding with reliable information at your fingertips!",
   alternates: {
     canonical: "https://www.umangnutraceuticals.com/faqs",
   },

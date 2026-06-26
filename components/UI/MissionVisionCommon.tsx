@@ -32,7 +32,10 @@ export const MissionVisionCommon = () => {
             Our Mission
           </Typography>
           <Typography sx={{ color: "#091610", fontSize: "16px", fontFamily: "Jost", fontWeight: 400, lineHeight: "1.5", pt: "15px" }}>
-            Our mission is to become a trusted global partner by achieving outstanding results based on a deep understanding of our customers’ needs, by offering customized encapsulation solutions in faster and more efficient ways. We are equally committed to becoming a “responsible and value-driven organization” in all our stakeholder relationships.
+          As a company, our goal is to become a reliable engineering partner on the global market by providing innovative, dependable, and customized process solutions tailored to meet the changing needs of various manufacturers. With a strong understanding of the processes and challenges our customers face, we can provide our clients with engineering expertise and innovative machines to improve their productivity and efficiency.
+          </Typography>
+          <Typography sx={{ color: "#091610", fontSize: "16px", fontFamily: "Jost", fontWeight: 400, lineHeight: "1.5", pt: "15px" }}>
+          In addition, as a company, we believe in becoming a reliable, value-driven organization with strong relationships with our clients, employees, partners, and communities. We intend to use engineering, innovation, and integrity to provide sustainable value to our stakeholders in the modern manufacturing industry.
           </Typography>
         </Box>
       </Box>
@@ -52,7 +55,7 @@ export const MissionVisionCommon = () => {
             Our Vision
           </Typography>
           <Typography sx={{ color: "#091610", fontSize: "16px", fontFamily: "Jost", fontWeight: 400, lineHeight: "1.5", pt: "15px" }}>
-            Our vision is to become a global leader in the microencapsulation market by 2030 through sustainable growth with the help of data-driven insights, agile decision-making, and execution.
+            To become a global leader in process engineering solutions by 2030 through innovation, sustainable growth, data-driven insights, and engineering excellence.
           </Typography>
         </Box>
         <Box

@@ -113,9 +113,11 @@ export default function QualityControlPage() {
                   py: 2,
                 }}
               >
-                {`- We have state-of-the-art facilities for Quality Control testing to ensure that every product we deliver is safe, pure, and effective. We do not dispatch any product from our facilities without subjecting it to rigorous testing against high standards set by international regulatory bodies.
+                {`"Quality is the backbone of all activities carried out by Umang Engineering. All equipment undergoes rigorous quality tests and inspections throughout the manufacturing process.
 
-- We utilize sophisticated equipment to carefully test APIs, finished products, packaging, and all associated materials with the help of our Quality Control team.`}
+The quality control system ensures that high standards of engineering excellence are maintained, from the selection of raw materials through the manufacturing and testing of machines. Adherence to quality control protocols and procedures guarantees that every machine is reliable, efficient, and durable.
+
+By maintaining close scrutiny and ensuring quality assurance, we provide equipment that can be relied upon for plant operations."`}
               </Typography>
 
               <Link href="/contact-us" style={{ textDecoration: "none" }}>

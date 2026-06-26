@@ -90,11 +90,13 @@ export default function BulkContractManufacturingPage() {
                   whiteSpace: "pre-line",
                 }}
               >
-                {`"Since its early days, Umang Global Group has established itself as a trustworthy contract manufacturing organization to distinguished pharmaceutical companies, including Dr. Reddy's. Our facilities have reliably passed the strictest client audits, which is a testament to our unflinching dedication to quality, regulatory compliance, and integrity.
+                {`""Since its very beginning, Umang Engineering has developed and manufactured advanced process equipment for the pharmaceutical, nutraceutical, food, chemical, and other related sectors. This equipment is well known worldwide for its precision, reliability, and consistent performance.
 
-Throughout the years, Umang Global Group has developed into a company with excellent manufacturing capacity in different therapeutic segments, including nutritional supplements, anesthetics, corticosteroids, antiemetics, steroid antibiotic combinations, anemia care, pain management, antihistamines, antifilarials, and many more. This is a testament to our ability to meet with different client requirements and standards.
+Through many years of successful practice, we have earned a strong reputation as a company that delivers excellent engineering, top-quality production, and an innovative approach to meeting customers' needs. All our systems are manufactured to the highest quality standards, ensuring durability, effectiveness, and cost-effectiveness.
 
-Our production facilities are equipped to handle complex drug delivery systems such as pellets, micro pellets, and oral thin films. Based on the fundamental pillars of innovation, consistency, and partnership building as the keys to growth, Umang Global Group still holds the mission to add value to the pharmaceutical industry."`}
+Our company possesses a broad knowledge base covering process technologies such as extrusion, spheronization, granulation, fluid-bed process equipment, coating and layering, pelletizing, and oral thin-film manufacturing. We offer both standalone equipment and complete process lines that will suit your production needs.
+
+We can help you optimize your process, increase productivity, and gain manufacturing excellence by providing innovative equipment due to our many years of engineering experience.""`}
               </Typography>
             </Grid>
 

@@ -91,7 +91,7 @@ export default function CoDevelopmentProjectPage() {
                   py: 2,
                 }}
               >
-               We work with clients worldwide on exclusive product development, offering profit-sharing opportunities, full regulatory support, and project management to ensure timely and efficient project delivery.
+               We work in partnership with our customers from around the world to engineer solutions to their unique problems. We do everything from idea conception to process improvement and equipment customization.
               </Typography>
 
               <Link href="/contact-us" style={{ textDecoration: "none" }}>

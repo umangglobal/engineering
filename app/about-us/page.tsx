@@ -74,13 +74,13 @@ const teamMembers: TeamMember[] = [
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "About Us: Encapsulation Firm | Umang Nutraceuticals",
-  description: "Umang Nutraceuticals. We specialize in advanced encapsulation solutions. Let's innovate together and boost your brand!",
+  title: "About Us: Learn Our Story & Mission | Umang Engineering",
+  description: "Umang Engineering's story, mission, industry expertise, and community engagement. Contact us for more information about our corporate culture and achievements.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/about-us",
+    canonical: "https://www.umangengineering.com/about-us",
   },
   openGraph: {
-    images: ["https://www.umangnutraceuticals.com/assets/images/about/Global-leaders.webp"],
+    images: ["https://www.umangengineering.com/assets/images/about/Global-leaders.webp"],
   },
 };
 
@@ -102,17 +102,16 @@ export default function AboutPage() {
           {/* Left — Text */}
           <Grid size={{ xs: 12, md: 6 }}>
             <Typography variant="h2" gutterBottom sx={{ fontFamily: "Jost-sb", fontSize: { xs: "20px", md: "48px" }, fontWeight: 500, paddingTop: "15px" }}>
-              About Umang Nutraceuticals
+              About Umang Engineering
             </Typography>
-            <Typography sx={{ color: "#091610", fontSize: "16px", fontFamily: "Jost", fontWeight: 400, lineHeight: "1.5" }}>
-              Umang Nutraceuticals is the specialized division of the Umang Global Group. The division is dedicated to developing advanced encapsulation solutions for the nutraceutical and functional food industries. Driven by the vision of Umang Budhraja, the pioneer in encapsulation technology, we are focused on improving nutraceutical formulations with innovative, high-performance solutions.
-Apart from the nutraceutical industry, the Umang Global Group operates through dedicated divisions in the pharmaceutical, personal care, home care, cosmetics industry, and more. Each division specializes in encapsulation technology to meet the needs of the respective industry.
-            </Typography>
-            <Typography sx={{ color: "#091610", fontSize: "16px", fontFamily: "Jost", fontWeight: 400, lineHeight: "1.5", paddingTop: "15px" }}>
-              We at Umang Nutraceuticals operate in close collaboration with our clients to understand the specific needs and requirements of the product formulation. This helps us in providing integrated solutions that meet the needs of product formulation with innovative encapsulation technology.
+            <Typography sx={{ color: "#091610", fontSize: "16px", fontFamily: "Jost", fontWeight: 400, lineHeight: "1.5" }}>	
+            Umang Engineering is the specialized engineering division of the Umang Global Group, dedicated to designing and manufacturing advanced process equipment and integrated manufacturing solutions for the pharmaceutical, nutraceutical, food, chemical, and allied industries. Leveraging years of engineering experience and innovation, we manufacture state-of-the-art machinery to improve the efficiency of your manufacturing processes.
             </Typography>
             <Typography sx={{ color: "#091610", fontSize: "16px", fontFamily: "Jost", fontWeight: 400, lineHeight: "1.5", paddingTop: "15px" }}>
-              At the Umang Global Group, our expertise helps the industry in improving product formulations and creating differentiated nutraceutical products that stand out in the competitive market.
+              As part of the Umang Global Group, Umang Engineering benefits from extensive industry knowledge gained across the group's diverse divisions, including pharmaceuticals, nutraceuticals, personal care, home care, cosmetics, and particle sciences. This wide exposure has helped us design engineering solutions that meet the ever-changing requirements of the industrial environment.
+            </Typography>
+            <Typography sx={{ color: "#091610", fontSize: "16px", fontFamily: "Jost", fontWeight: 400, lineHeight: "1.5", paddingTop: "15px" }}>
+              Umang Engineering is dedicated to understanding our clients' unique needs regarding their processes, production challenges, and goals. It is this dedication that enables us to offer equipment and processes that increase your efficiency and productivity.
             </Typography>
           </Grid>
 
@@ -129,10 +128,10 @@ Apart from the nutraceutical industry, the Umang Global Group operates through d
           {/* Center Text */}
           <Grid size={{ xs: 12, md: 12 }} sx={{ px: 6 }}>
             <Typography sx={{ color: "#091610", fontSize: "16px", fontFamily: "Jost-sb", fontWeight: 400, lineHeight: "1.5", paddingTop: "15px", textAlign: "center" }}>
-              We work together with our clients to understand their unique product requirements, allowing us to develop integrated solutions that combine both product and technology for the best results.
+We collaborate with manufacturers worldwide to understand their unique production requirements and develop tailored engineering solutions that deliver measurable results. It is through our blend of technology, expertise, and innovation that we help our partners excel in manufacturing and succeed in the long run.
             </Typography>
             <Typography sx={{ color: "#091610", fontSize: "16px", fontFamily: "Jost-sb", fontWeight: 400, lineHeight: "1.5", textAlign: "center" }}>
-              At Umang Global Group, we use our encapsulation expertise to improve product quality and help our partners gain a strong competitive edge in the market.
+              At Umang Engineering, our commitment to engineering excellence enables manufacturers to improve process efficiency, maintain consistent product quality, and build a sustainable competitive advantage in an increasingly demanding global marketplace.
             </Typography>
           </Grid>
 
@@ -147,15 +146,15 @@ Apart from the nutraceutical industry, the Umang Global Group operates through d
           {/* Why Choose Us */}
           <Grid size={{ xs: 12, md: 12 }} sx={{ px: { xs: 0, md: 9 } }}>
             <Typography variant="h2" gutterBottom sx={{ fontFamily: "Jost-sb", fontSize: { xs: "20px", md: "48px" }, fontWeight: 500, paddingTop: "15px", textAlign: "center" }}>
-              Why Choose Umang Nutraceuticals?
+              Why Choose Umang Engineering?
             </Typography>
             <Typography sx={{ color: "#091610", fontSize: "16px", fontFamily: "Jost", fontWeight: 400, lineHeight: "1.5", paddingTop: "15px", textAlign: "center" }}>
-              We empower you to concentrate on growing your brand and reaching new markets, while we handle the rest. We support you in all stages of product and brand development, transforming your ideas into successful and innovative nutraceuticals solutions.
+              We empower you to concentrate on growing your brand and reaching new markets, while we handle the rest. We support you in all stages of product and brand development, transforming your ideas into successful and innovative engineering solutions.
             </Typography>
             <Box
               component="img"
               src="/assets/images/about/why.webp"
-              alt="Why Choose Umang Nutraceuticals"
+              alt="Why Choose Umang Engineering"
               sx={{ width: "707px", height: { xs: "auto", md: "398px" }, borderRadius: "50px", objectFit: "cover", margin: "auto", py: 2 }}
             />
           </Grid>
@@ -166,7 +165,7 @@ Apart from the nutraceutical industry, the Umang Global Group operates through d
               Meet the Minds That Make It Happen
             </Typography>
             <Typography sx={{ color: "#091610", fontSize: "16px", fontFamily: "Jost", fontWeight: 400, lineHeight: "1.5", paddingTop: "15px", textAlign: "left" }}>
-              Meet the professionals shaping the future of nutraceutical solutions.
+              Meet the professionals shaping the future of engineering solutions.
             </Typography>
           </Grid>
 
@@ -222,7 +221,7 @@ Apart from the nutraceutical industry, the Umang Global Group operates through d
                             "&:hover": { bgcolor: "#41939C" },
                           }}
                         >
-                          {Icon && <Icon style={{ width: 23, height: 23 }} />}
+                          {Icon && <Icon style={{ width: 24, height: 24 }} />}
                         </IconButton>
                       );
                     })}

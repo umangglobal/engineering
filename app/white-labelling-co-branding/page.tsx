@@ -85,7 +85,7 @@ export default function WhiteLabellingCoBrandingPage() {
                 py: 2,
               }}
             >
-              We help turn your idea into market success with robust production capabilities, scalable solutions, and precise inventory management. With market-ready products under your brand, combined with the power of our tested formulations and production capabilities, we help make your journey to market a successful one.
+              We will assist in making your concepts marketable through strong manufacturing capabilities, streamlined processing, and efficient supply chain management. Our strengths lie in proven formulations and engineering. We ensure your smooth journey from concept to commercial success.
             </Typography>
 
             <Link href="/contact-us" style={{ textDecoration: "none" }}>

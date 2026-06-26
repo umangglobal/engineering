@@ -23,19 +23,19 @@ const BreadcrumbsUrls = [
 const sustainedData: LocationCard[] = [
   {
     title: "Oshiwara Corporate Office",
-    description: "The hub of our strategic and client-facing operations. This is where our Leadership, Sales, and Digital Marketing teams are based, and where ideas evolve into execution to drive brand growth and business development.",
+    description: "At the heart of our strategic and client-facing initiatives lies our Leadership, Sales, and Digital Marketing teams, whose efforts turn innovative ideas into real strategies that make our clients grow and develop.",
   },
   {
     title: "Bhoidapada Engineering Plant",
-    description: "A vital center supporting our machinery expertise. This facility manages encapsulation equipment manufacturing, as well as key functions including accounts, logistics, procurement, and store operations.",
+    description: "One of the important facilities that enables us to maintain high standards of engineering excellence is the factory for producing encapsulation equipment, which is well supported by departments such as accounting, logistics, procurement, and stores.",
   },
   {
     title: "Mandvi Nutraceutical Plant",
-    description: "A dedicated manufacturing facility for nutraceutical and pharmaceutical solutions with strong teams in R&D, QA, QC, Stores, IT, and HR, which would help in regulatory compliance, scientific accuracy, and operational efficiency in a holistic manner.",
+    description: "Our specialized facility for manufacturing nutraceutical and pharmaceutical solutions operates under the close oversight of our R&D, Quality Assurance, Quality Control, Stores, IT, and Human Resources teams.",
   },
   {
     title: "Chandip Personal Care Plant",
-    description: "The state-of-the-art facility in personal care manufacturing at Chandip is backed by dedicated teams in Quality Assurance, Quality Control, Stores, EHS (Environment, Health & Safety), and Regulatory departments. All these departments operate in complete coordination to ensure that our encapsulated solutions meet high standards in terms of safety, quality, and sustainability.",
+    description: "Finally, there is the advanced manufacturing facility for personal care solutions in Chandip, well supported by specialized departments such as QA, QC, stores, EHS, and Regulatory Affairs.",
   },
 ];
 
@@ -115,7 +115,7 @@ export default function LeadershipTeamPage() {
                 People Who Make It Possible
               </Typography>
               <Typography fontSize={16} fontWeight={400}>
-                Across all locations of Umang Global Group, our people work in close collaboration to foster innovation, quality, and adherence to global standards. From leadership and research to precision manufacturing, we are united in our quest to provide quality encapsulation solutions and product consistency worldwide.
+                Across all locations of the Umang Global Group, our teams collaborate closely in order to foster innovation, maintain quality and stay true to international standards. Through leadership, research and precision manufacturing, we are all committed to providing innovative engineering solutions and consistent product performance.
               </Typography>
             </Box>
           </Box>
@@ -131,7 +131,7 @@ export default function LeadershipTeamPage() {
                 mt: "20px",
                 borderRadius: "20px",
                 gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
-                background: "#C3E9ED",
+                background: "#C7EADF",
               }}
             >
               {sustainedData.map((item, index) => (

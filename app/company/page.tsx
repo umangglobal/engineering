@@ -16,31 +16,31 @@ const BreadcrumbsUrls = [
 const cardData = [
   {
     title: "Leadership & Team",
-    description: "Meet the minds driving our innovation and growth, where experience and collaboration shape everything we do.",
+    description: "Meet the brains behind our unique services, where knowledge, teamwork, and a passion for solving problems define all we do.",
     img: "/assets/images/resources/company1.png",
     ctr_url: "/leadership-team",
   },
   {
     title: "Services",
-    description: "We deliver end-to-end encapsulation solutions, tailored to diverse industries and needs.",
+    description: "Our team provides comprehensive process engineering services, customized to meet the needs of diverse manufacturing processes across industries.",
     img: "/assets/images/resources/company2.png",
     ctr_url: "/services",
   },
   {
     title: "Encapsulation Technology",
-    description: "AI-driven encapsulation and precision tech. Smart, sustainable, and performance-focused.",
+    description: "AI-powered encapsulation and precision technology. Efficient, green, and performance driven.",
     img: "/assets/images/resources/company3.png",
     ctr_url: "/encapsulation-technology",
   },
   {
     title: "Our Other Brands",
-    description: "Explore our family of global specialty brands. Each built on quality and innovation.",
+    description: "Discover our family of specialty brands, built for providing quality innovations.",
     img: "/assets/images/resources/company4.png",
     ctr_url: "/our-other-brands",
   },
   {
     title: "Careers",
-    description: "Join a team shaping the future of formulation. Grow your skills and make an impact.",
+    description: "Join a team shaping the future of manufacturing technology. Grow with us to create a greater impact.",
     img: "/assets/images/resources/company5.png",
     ctr_url: "/careers",
   },
@@ -56,10 +56,10 @@ const CompanyPageSchema = {
 
 // ---- Metadata ----
 export const metadata: Metadata = {
-  title: "Company Success Starts | Umang Nutraceuticals",
-  description: "Achieve remarkable success with Umang Nutraceuticals. Learn how our expertise in particle technology can transform your business and drive growth.",
+  title: "Company Success Starts | Umang Engineering",
+  description: "Achieve remarkable success with Umang Engineering. Learn how our expertise in process engineering can transform your business and drive growth.",
   alternates: {
-    canonical: "https://www.umangnutraceuticals.com/company",
+    canonical: "https://www.umangengineering.com/company",
   },
 };
 

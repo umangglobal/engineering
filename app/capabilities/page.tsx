@@ -16,19 +16,19 @@ const BreadcrumbsUrls = [
 const cardData = [
   {
     title: "Bulk & Contract Manufacturing",
-    description: "A trusted contract manufacturer for leading pharmaceutical companies, delivering audit-approved, high-quality products across diverse therapeutic segments and advanced dosage forms.",
+    description: "A trusted manufacturer of advanced process equipment, delivering high-performance engineering solutions for pharmaceutical, nutraceutical, food, chemical, and allied industries.",
     img: "/assets/images/resources/cap1.png",
     ctr_url: "/bulk-contract-manufacturing",
   },
   {
     title: "Quality Control",
-    description: "We operate a modern QC laboratory, ensuring product purity, safety, and efficacy through rigorous testing aligned with international standards.",
+    description: "Our strict quality systems and precise manufacturing practices guarantee consistent performance, durability, and adherence to worldwide industry standards.",
     img: "/assets/images/resources/cap2.png",
     ctr_url: "/quality-control",
   },
   {
     title: "Co-Development Projects",
-    description: "We partner with customers worldwide on exclusive product development, offering profit-sharing models, comprehensive regulatory support, and dedicated project leadership to ensure efficient and timely execution.",
+    description: "Through global collaboration with manufacturers, we offer customized solutions for equipment and processes, leveraging our engineering expertise, technical advice, and project management.",
     img: "/assets/images/resources/cap3.png",
     ctr_url: "/co-development-project",
   },
@@ -40,7 +40,7 @@ const cardData = [
   },
   {
     title: "White Labelling & Co Branding",
-    description: "From Your Vision to Market Success – We Bring Production Strength, Scalability, and Inventory Precision.",
+    description: "From your vision to marketplace success, we offer the power of robust manufacturing, scalability, and effective inventory control.",
     img: "/assets/images/resources/cap5.png",
     ctr_url: "/white-labelling-co-branding",
   },

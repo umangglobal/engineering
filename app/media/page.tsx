@@ -17,31 +17,31 @@ const cardData = [
   {
     title: "Blogs",
     image: "/assets/images/resources/blogs.png",
-    description: "Discover the science behind what goes into your medicine.",
+    description: "Check out the latest trends, innovations, and technology driving the future of process engineering and manufacturing.",
     url: "/blogs",
   },
   {
     title: "Videos",
     image: "/assets/images/resources/videos.png",
-    description: "Know formulation-enhancing innovations with our expert videos",
+    description: "Uncover advanced machinery, manufacturing technology, and engineering solutions through videos by experts.",
     url: "/videos",
   },
   {
     title: "Magazine",
     image: "/assets/images/resources/magazine.png",
-    description: "Deeper insights for smarter pharmaceutical decisions",
+    description: "Get insight into the latest industry news, technology, and expert opinions to make better decisions in manufacturing.",
     url: "/magazine",
   },
   {
     title: "News & Exhibitions",
     image: "/assets/images/resources/news.png",
-    description: "Latest insights on innovative pharmaceutical solutions",
+    description: "Get the latest information on new products, industry events, exhibitions, and engineering innovations.",
     url: "/news-exhibition",
   },
   {
     title: "Sustainability",
     image: "/assets/images/resources/sustainability.png",
-    description: "Every small change can make a big difference towards nature.",
+    description: "See how innovation, efficiency, and sustainability in engineering can help shape a better future.",
     url: "/sustainability",
   },
 ];
