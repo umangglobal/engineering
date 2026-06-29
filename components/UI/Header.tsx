@@ -56,6 +56,7 @@ export default function Header() {
       path: "/",
     },
     { label: "Products",    path: "/product" , hasDropdown: true  },
+    { label: "Spare Parts",          path: "/products/spare-parts"  },
     { label: "Solutions",          path: "/solutions"  },
     { label: "Resources",         path: "/resources", hasDropdown: true  },
     { label: "About Us",          path: "/about-us" },

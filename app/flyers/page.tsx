@@ -34,7 +34,7 @@ const cardData = [
   },
   {
     title: "Rapid Mixer Granulator",
-    description: "Gramulation System",
+    description: "Granulation System",
     img: "/assets/images/resources/rapid-mixer-granulator.webp",
     ctr_url: "/assets/pdf/rapid-mixer-granulator.pdf",
   },
