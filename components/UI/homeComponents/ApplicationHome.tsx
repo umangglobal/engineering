@@ -134,7 +134,7 @@ export const ApplicationHome = () => {
                 </Typography>
 
                 {/* Button */}
-                <Link href="/formulations">
+                <Link href="/products/spare-parts" style={{ textDecoration: "none" }}>
                   <Button
                     variant="contained"
                     sx={{

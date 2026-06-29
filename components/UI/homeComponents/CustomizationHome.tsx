@@ -138,7 +138,7 @@ export const CustomizationHome = () => {
 
       {/* CTA Button */}
       <Box sx={{ display: "flex", justifyContent: "center", py: "20px" }}>
-        <Link href="/customize" style={{ textDecoration: "none" }}>
+        <Link href="/product" style={{ textDecoration: "none" }}>
           <Button
             variant="contained"
             sx={{
