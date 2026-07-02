@@ -5,32 +5,33 @@ import { createBreadcrumbSchema, OrganizationSchema } from "@/lib/api/SeoSchemas
 import Link from "next/link";
 import type { Metadata } from "next";
 import SolutionsExplorer from "@/components/UI/ResourcesComponent/SolutionsExplorer";
+import { url } from "inspector";
 
 
 const solutions = [
 {
 title: 'Pelletization',
 image: 'assets/images/solutions/pelletization.webp',
-description:
-'Complete pelletization solutions from laboratory scale to commercial production.',
+description: 'Complete pelletization solutions from laboratory scale to commercial production.',
+url: '/pelletization-and-spheronization-systems',
 },
 {
 title: 'Granulation',
 image: 'assets/images/solutions/granulation.webp',
-description:
-'Efficient granulation systems for pharmaceutical and nutraceutical applications.',
+description: 'Efficient granulation systems for pharmaceutical and nutraceutical applications.',
+url: '/granulation-systems',
 },
 {
 title: 'Oral Thin Film',
 image: 'assets/images/solutions/film.webp',
-description:
-'End-to-end oral thin film development and manufacturing solutions.',
+description: 'End-to-end oral thin film development and manufacturing solutions.',
+url: '/film-processing',
 },
 {
 title: 'Extrusion',
 image: 'assets/images/solutions/extrusion.webp',
-description:
-'Advanced extrusion technologies for optimized production.',
+description: 'Advanced extrusion technologies for optimized production.',
+url: '/extrusion-systems',
 },
 ];
 
@@ -91,6 +92,7 @@ export default function Solutions() {
     <Grid container spacing={4}>
       {solutions.map((item) => (
         <Grid size={{ xs: 12, sm: 6, md: 3 }} key={item.title}>
+          <Link href={`products${item.url}`}>
           <Card
             sx={{
               borderRadius: 5,
@@ -117,6 +119,7 @@ export default function Solutions() {
               </Typography>
             </CardContent>
           </Card>
+          </Link>
         </Grid>
       ))}
     </Grid>

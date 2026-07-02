@@ -143,7 +143,7 @@ export default async function ProductSinglePage({ params }: Props) {
   const DownloadSection = [
     {
       title: data.product_name.toUpperCase(),
-      url: "/assets/pdf/Pharmaceutical-division-catalog.pdf",
+      url: "/assets/pdf/Engineering.pdf",
       iconKey: "DownloadIcon",
     },
     {

@@ -86,7 +86,6 @@ export default function SolutionsExplorer() {
       <Tabs
         value={tab}
         onChange={(e, value) => setTab(value)}
-        centered
         variant="scrollable"
         scrollButtons="auto"
       >
