@@ -49,7 +49,7 @@ export const MeetingHome = () => {
         }}
       >
         {/* Button 1 - Meeting */}
-        <Link href="https://meet.google.com/ztc-ozci-gtx" target="_blank">
+        <Link href="/schedule-an-appointment" target="_blank">
           <Button
             variant="outlined"
             sx={{

@@ -78,6 +78,7 @@ const tabLabels: TabLinkItem[][] = [
     { label: "Technology",         url: "/encapsulation-technology" },
     { label: "Our Other Brands",   url: "/our-other-brands"         },
     { label: "Careers",            url: "/careers"                  },
+    { label: "Schedule an Appointment",            url: "/schedule-an-appointment" },
   ],
   [
     { label: "Bulk & Contract Manufacturing",       url: "/bulk-contract-manufacturing"          },
