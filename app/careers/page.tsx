@@ -89,7 +89,7 @@ export default async function CareersPage() {
           {[...data].reverse().map((val, index) => (
             <Grid size={{ xs: 12, sm: 6, md: 4 }} key={index}>
               <Link
-                  href="https://api.whatsapp.com/send?text=Hello&phone=919518349134"
+                  href="https://forms.gle/io1rDi3G51j9xQre9"
                   target="_blank"
                   style={{ textDecoration: "none" }}
                 >
