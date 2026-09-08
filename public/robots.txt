@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /private/
+Allow: /
+
+Sitemap: https://www.umangengineering.com/sitemap.xml
+Sitemap: https://www.umangengineering.com/video-sitemap.xml
+Allow: /favicon.ico

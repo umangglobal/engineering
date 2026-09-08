@@ -61,6 +61,7 @@ export const BannerHome = () => {
         }}
       >
         <Typography
+            variant="h1"
           sx={{
             position: "absolute",
             top: "220px",
@@ -113,7 +114,7 @@ export const BannerHome = () => {
         <Box
           component="img"
           src="/assets/images/home/banner_img1.webp"
-          alt="Custom Oralcare actives: encapsulated flims, taste masked actives and ingredient containers"
+          alt="Custom Oralcare actives: encapsulated flims, taste-masked actives and ingredient containers"
           loading="lazy"
           sx={{
             position: "absolute",
@@ -178,7 +179,7 @@ export const BannerHome = () => {
               }}
             >
               <Typography
-                variant="h2"
+                variant="h1"
                 sx={{
                   fontFamily: "Jost-sb",
                   fontSize: "54px",
