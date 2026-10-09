@@ -61,7 +61,7 @@ export const BannerCommon = ({
             }}
           >
             <Typography
-              variant="h2"
+              variant="h1"
               gutterBottom
               sx={{
                 fontFamily: "Jost-sb",

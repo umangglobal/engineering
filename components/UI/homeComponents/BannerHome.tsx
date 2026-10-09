@@ -61,7 +61,6 @@ export const BannerHome = () => {
         }}
       >
         <Typography
-            variant="h1"
           sx={{
             position: "absolute",
             top: "220px",

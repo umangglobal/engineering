@@ -41,6 +41,16 @@ export interface ProductSegment {
   [key: string]: unknown;
 }
 
+export interface ProductSegmentDescription {
+  seg_id: string | number;
+  seg_slug: string;
+  seg_name: string;
+  seg_desc: string;
+  seg_faq: string;
+  seg_status: string;
+  [key: string]: unknown;
+}
+
 export interface Blog {
   blog_id: string | number;
   blog_slug: string;
@@ -151,6 +161,18 @@ export const fetchActivesSearchResults = async (
   } catch (error) {
     console.error("Error fetching search results:", error);
     return [];
+  }
+};
+
+export const fetchproductsSegmentDescription = async (
+  productSegmentSlug: string
+): Promise<ProductSegmentDescription | null> => {
+  try {
+    const res = await api.get(`product-segment-description/${productSegmentSlug}`);
+    return res.status === 200 && res.data ? res.data : null;
+  } catch (error) {
+    console.error("API Segment Description Fetch Error:", error);
+    return null;
   }
 };
 

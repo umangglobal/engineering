@@ -169,7 +169,7 @@ export default function Header() {
                           color: active ? "#41939C" : "#141B34",
                         }}
                       >
-                        <Typography component="span">{item.label}</Typography>
+                        <Typography component="span" style={{ fontFamily: "Jost" }}>{item.label}</Typography>
                         {item.hasDropdown && (
                           <DropDownIcon style={{ width: "21px", height: "21px", color: "#141B34" }} />
                         )}
@@ -237,7 +237,7 @@ export default function Header() {
                 {navItems.map((item, index) => (
                   <ListItem key={index} onClick={handleDrawerToggle}>
                     <Link href={item.path} style={{ textDecoration: "none", color: "inherit", width: "100%" }}>
-                      <ListItemText primary={item.label} />
+                      <ListItemText style={{ fontFamily: "Jost" }} primary={item.label} />
                     </Link>
                   </ListItem>
                 ))}
