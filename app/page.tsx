@@ -4,6 +4,7 @@ import { BannerHome } from '@/components/UI/homeComponents/BannerHome'
 import { CounterStatsHome } from '@/components/UI/homeComponents/CounterStatsHome'
 import { OrganizationSchema, WebSiteSchema } from '@/lib/api/SeoSchemas'
 import type { Metadata } from 'next'
+import MachineToMicrospheres from '@/components/UI/homeComponents/MachineToMicrospheres'
 
 // ---- SEO ----
 const HomePageSchema = {
@@ -51,12 +52,13 @@ export default function HomePage() {
       <BannerHome />
       <CounterStatsHome />
       <SliderHome />
-      <MeetingHome />
+      <MachineToMicrospheres />
       <ApplicationHome />
       <VideoBannerHome />
       <CustomizationHome />
       <AboutTabsHome />
       <BrandsTrustHome />
+      <MeetingHome />
       <SegmentsHome />
       <SustainabilityHome />
       <AccordianFAQHome />

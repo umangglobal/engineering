@@ -51,7 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: matchedCategory?.pro_segment_title ?? "Products",
     description: matchedCategory?.pro_segment_desc ?? "Explore our product range.",
     alternates: {
-      canonical: `https://www.umangnutraceuticals.com/products/${slug}`,
+      canonical: `https://www.umangengineering.com/products/${slug}`,
     },
   };
 }
