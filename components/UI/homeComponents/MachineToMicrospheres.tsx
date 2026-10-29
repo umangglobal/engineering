@@ -197,7 +197,7 @@ export const MachineToMicrospheres = () => {
             marginBottom: "15px",
           }}
         >
-           MACHINE TO MICROSPHERES
+           FROM MACHINES TO MICROSPHERES
         </Typography>
           <Typography
             sx={{
