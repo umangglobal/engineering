@@ -52,7 +52,7 @@ const stages: StageData[] = [
     description:
       "The foundation for efficient drug layering, functional coating, and advanced pellet development.",
     icon: "/assets/icons/cores.svg",
-    url: "https://www.umangpharmaceuticals.com/",
+    url: "https://www.umangpharmaceuticals.com/products/excipient-pellets",
     external: true,
     // stat: { value: 337, suffix: " t/yr", label: "MCC spheres to the US" },
   },
@@ -61,7 +61,7 @@ const stages: StageData[] = [
     altdescription: "Formulation solutions for pharmaceutical applications",
     description: "Formulation solutions tailored to specific release profiles, color, and particle size requirements.",
     icon: "/assets/icons/formulation.svg",
-    url: "https://www.umangnutraceuticals.com/",
+    url: "https://www.umangnutraceuticals.com/product",
     external: true,
     // stat: { value: 300, suffix: "+", label: "Catalogue beadlets" },
   },
@@ -247,7 +247,7 @@ export const MachineToMicrospheres = () => {
             </Button>
           </Link>
           {/* TODO: point this to the ingredient / contract-manufacturing enquiry page */}
-          <Link href="/contact-us">
+          <Link href="/free-quote">
             <Button
               variant="outlined"
               sx={{
