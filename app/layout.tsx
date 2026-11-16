@@ -6,6 +6,23 @@ import Script from 'next/script'
 import Header from '@/components/UI/Header'
 import { Footer } from '@/components/UI/Footer'
 import { ChatBotMain } from '@/components/ChatBotMain'
+import { LingoProvider } from "@lingo.dev/compiler/react";
+import GoogleTranslate from "@/components/UI/Translator/GoogleTranslate";
+
+const gtReactFix = `
+  if (typeof Node === 'function' && Node.prototype) {
+    var r = Node.prototype.removeChild;
+    Node.prototype.removeChild = function (c) {
+      if (c.parentNode !== this) return c;
+      return r.apply(this, arguments);
+    };
+    var i = Node.prototype.insertBefore;
+    Node.prototype.insertBefore = function (n, ref) {
+      if (ref && ref.parentNode !== this) return n;
+      return i.apply(this, arguments);
+    };
+  }
+`;
 
 export const metadata: Metadata = {
   title: 'Engineering',
@@ -22,7 +39,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <LingoProvider>
+    <html translate="no" className="notranslate">
       <head>
         {/* Google Tag Manager */}
         <Script id="gtm" strategy="afterInteractive">
@@ -45,8 +63,10 @@ export default function RootLayout({
           href="/assets/images/home/pattern.webp"
           fetchPriority="high"
         />
+
+        <script dangerouslySetInnerHTML={{ __html: gtReactFix }} />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
@@ -60,11 +80,13 @@ export default function RootLayout({
         <Providers>
           <Header />
           {children}
+          <GoogleTranslate />
           <CookieConsent />
           <ChatBotMain />
           <Footer />
         </Providers>
       </body>
     </html>
+    </LingoProvider>
   )
 }

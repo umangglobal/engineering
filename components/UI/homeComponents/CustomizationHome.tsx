@@ -4,6 +4,7 @@ import { Box, Button, Container, Typography } from "@mui/material";
 import ProductCustomization from "../../../lib/api/ProductCustomization.json";
 import BeakerFilledFormulaIcon from "@/assets/icons/homepage/beaker-filled-formula.svg";
 import Link from "next/link";
+import { DynamicText } from "../Translator/DynamicText";
 
 interface ProductCustomizationItem {
   pro_cust_desc: string;
@@ -84,7 +85,7 @@ export const CustomizationHome = () => {
                     fontWeight: 500,
                   }}
                 >
-                  {item.pro_cust_desc}
+                  <DynamicText>{item.pro_cust_desc}</DynamicText>
                 </Typography>
               </Box>
 

@@ -39,6 +39,12 @@ body {
   padding: 0;
 }
 
+.skiptranslate iframe,
+.goog-te-banner-frame { display: none !important; }
+body { top: 0 !important; }
+.goog-tooltip, #goog-gt-tt { display: none !important; }
+.goog-text-highlight { background: none !important; box-shadow: none !important; }
+
 /* ---- YouTube embed ---- */
 lite-youtube {
   max-width: 100%;

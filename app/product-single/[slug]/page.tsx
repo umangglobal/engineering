@@ -27,6 +27,7 @@ import CloudDownloadIcon from "@/assets/icons/product/clouddownload.svg";
 import type { Metadata } from "next";
 import { JsonLd } from "@/components/UI/JsonLd";
 import CapacityTable from "@/components/UI/productComponents/CapacityTable";
+import { DynamicText } from "@/components/UI/Translator/DynamicText";
 
 
 // ---- Types ----
@@ -204,11 +205,11 @@ export default async function ProductSinglePage({ params }: Props) {
           {/* Product Info */}
           <Grid size={{ xs: 12, md: 6 }}>
             <Typography variant="h1" gutterBottom sx={{ fontFamily: "Jost-sb", fontSize: { xs: "32px", md: "48px" }, fontWeight: 500, paddingTop: "15px" }}>
-              {data.product_name}
+              <DynamicText>{data.product_name}</DynamicText>
             </Typography>
 
             <Typography variant="h2" gutterBottom sx={{ color: "#6A8076", fontFamily: "Jost-sb", fontSize: { xs: "21px", md: "32px" }, fontWeight: 500, padding: "15px 0px" }}>
-              {data.product_active}
+              <DynamicText>{data.product_active}</DynamicText>
               <Box component="sup" sx={{ fontSize: "0.4em", verticalAlign: "super" }} />
             </Typography>
 
@@ -230,7 +231,7 @@ export default async function ProductSinglePage({ params }: Props) {
                       "&::before": { content: '"-"', marginRight: "8px" },
                     }}
                   >
-                    {item}
+                    <DynamicText>{item}</DynamicText>
                   </Box>
                 ))}
             </Box>
@@ -291,8 +292,8 @@ export default async function ProductSinglePage({ params }: Props) {
                             <Icon style={{ fontSize: 24, color: "#000", position: "relative" }} />
                           </Box>
                           <Box>
-                            <Typography sx={{ fontSize: 20, fontWeight: 500, fontFamily: "Jost" }}>{title}</Typography>
-                            <Typography sx={{ fontSize: 16, fontFamily: "Jost" }}>{desc}</Typography>
+                            <Typography sx={{ fontSize: 20, fontWeight: 500, fontFamily: "Jost" }}><DynamicText>{title}</DynamicText></Typography>
+                            <Typography sx={{ fontSize: 16, fontFamily: "Jost" }}><DynamicText>{desc}</DynamicText></Typography>
                           </Box>
                         </Box>
                       ))}
@@ -309,8 +310,8 @@ export default async function ProductSinglePage({ params }: Props) {
                             <Icon style={{ fontSize: 24, color: "#000", position: "relative" }} />
                           </Box>
                           <Box>
-                            <Typography sx={{ fontSize: 20, fontWeight: 500, fontFamily: "Jost" }}>{title}</Typography>
-                            <Typography sx={{ fontSize: 16, fontFamily: "Jost" }}>{desc}</Typography>
+                            <Typography sx={{ fontSize: 20, fontWeight: 500, fontFamily: "Jost" }}><DynamicText>{title}</DynamicText></Typography>
+                            <Typography sx={{ fontSize: 16, fontFamily: "Jost" }}><DynamicText>{desc}</DynamicText></Typography>
                           </Box>
                         </Box>
                       ))}
@@ -328,7 +329,7 @@ export default async function ProductSinglePage({ params }: Props) {
             Detailed Information on {data.product_name}
           </Typography>
           <Typography sx={{ color: "#091610", fontSize: "16px", fontFamily: "Jost", fontWeight: 400, lineHeight: "1.5", whiteSpace: "pre-line", padding: 0.5 }}>
-            {data.product_description}
+           <DynamicText>{data.product_description}</DynamicText>
           </Typography>
         </Box>
 

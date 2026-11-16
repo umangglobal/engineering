@@ -17,8 +17,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { SearchPopup } from "./SearchPopup";
 import { FC, SVGProps } from "react";
+import { LanguageSwitcher } from "@/components/UI/Translator/LanguageSwitcher";
 
 interface NavItem {
+   id: string;
   label: string | React.ReactNode;
   path: string;
   hasDropdown?: boolean;
@@ -44,22 +46,22 @@ export default function Header() {
   }, []);
 
   const handleDrawerToggle = () => setMobileOpen((prev) => !prev);
-
   const navItems: NavItem[] = [
     {
-      label: (
-        <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-          <HomeIcon style={{ width: "21px", height: "21px", color: "#141B34" }} />
-          Home
-        </Box>
-      ),
-      path: "/",
-    },
-    { label: "Products",    path: "/product" , hasDropdown: true  },
-    { label: "Spare Parts",          path: "/products/spare-parts"  },
-    { label: "Solutions",          path: "/solutions"  },
-    { label: "Resources",         path: "/resources", hasDropdown: true  },
-    { label: "About Us",          path: "/about-us" },
+    id: "Home",
+    label: (
+      <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+        <HomeIcon style={{ width: "21px", height: "21px", color: "#141B34" }} />
+        Home
+      </Box>
+    ),
+    path: "/",
+  },
+  { id: "Products",    label: <>Products</>,    path: "/product", hasDropdown: true },
+  { id: "Spare Parts", label: <>Spare Parts</>, path: "/products/spare-parts" },
+  { id: "Solutions",   label: <>Solutions</>,   path: "/solutions" },
+  { id: "Resources",   label: <>Resources</>,   path: "/resources", hasDropdown: true },
+  { id: "About Us",       label: <>About Us</>,    path: "/about-us" },
   ];
 
   // Helper to check active route
@@ -131,6 +133,8 @@ export default function Header() {
                   <Typography sx={{ fontSize: "16px", fontFamily: "Jost" }}>info@umangglobal.com</Typography>
                 </Box>
               </Link>
+
+              <LanguageSwitcher />
             </Box>
 
             {/* Navigation Row */}
@@ -138,12 +142,13 @@ export default function Header() {
               {/* Left navigation */}
               <Box sx={{ display: "flex", alignItems: "center", gap: "24px" }}>
                 {navItems.map((item, index) => {
-                  const itemLabel = typeof item.label === "string" ? item.label : "";
+                  // const itemLabel = typeof item.label === "string" ? item.label : "";
                   const active = isActive(item.path);
 
                   return (
+                    
                     <Box
-                      key={index}
+                      key={item.id}
                       sx={{
                         display: "flex",
                         flexDirection: "column",
@@ -153,7 +158,7 @@ export default function Header() {
                         padding: "3px",
                         "&:hover": { background: "#41939C21", borderRadius: "5px" },
                       }}
-                      onMouseEnter={() => setHoveredItem(itemLabel)}
+                      onMouseEnter={() => setHoveredItem(item.id)}
                       onMouseLeave={() => setHoveredItem(null)}
                     >
                       <Link
@@ -181,12 +186,12 @@ export default function Header() {
                       )}
 
                       {/* Dropdowns */}
-                      {itemLabel === "Products" && hoveredItem === "Products" && (
+                      {item.id === "Products" && hoveredItem === "Products" && (
                         <Box sx={{ position: "absolute", top: "85%", left: "-300%", zIndex: 999, mt: 0.4, width: "1050px" }}>
                           <TopHeaderProductNavItem />
                         </Box>
                       )}
-                      {itemLabel === "Resources" && hoveredItem === "Resources" && (
+                      {item.id === "Resources" && hoveredItem === "Resources" && (
                         <Box sx={{ position: "absolute", top: "80%", left: "-200%", zIndex: 999, mt: 0.4, width: "680px" }}>
                           <TopHeaderResourcesNavItem />
                         </Box>
