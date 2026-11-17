@@ -35,6 +35,9 @@ export default async function (): Promise<NextConfig> {
     dev: {
       usePseudotranslator: false,
     },
+    pluralization: {
+      enabled: false,
+    },
   });
 
   // Re-apply SVG rule in case withLingo replaced turbopack.rules

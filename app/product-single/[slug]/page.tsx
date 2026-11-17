@@ -210,7 +210,7 @@ export default async function ProductSinglePage({ params }: Props) {
 
             <Typography variant="h2" gutterBottom sx={{ color: "#6A8076", fontFamily: "Jost-sb", fontSize: { xs: "21px", md: "32px" }, fontWeight: 500, padding: "15px 0px" }}>
               <DynamicText>{data.product_active}</DynamicText>
-              <Box component="sup" sx={{ fontSize: "0.4em", verticalAlign: "super" }} />
+              {/* <Box component="sup" sx={{ fontSize: "0.4em", verticalAlign: "super" }} /> */}
             </Typography>
 
             <Box component="ul" sx={{ pl: 2, m: 0, listStyleType: "none" }}>
@@ -284,16 +284,16 @@ export default async function ProductSinglePage({ params }: Props) {
                   <Grid size={{ xs: 12, md: 6 }}>
                     <Box sx={{ display: "flex", flexDirection: "column", gap: 3 }}>
                       {[
-                        { Icon: SizeIcon,  title: "Capacity",    desc: "Payload, Volume throughput,.." },
-                        { Icon: ColorIcon, title: "Utility Specs", desc: "Power consumption, Operating pressure,.."     },
-                      ].map(({ Icon, title, desc }) => (
-                        <Box key={title} sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+                        { key: "capacity", Icon: SizeIcon,  title: <>Capacity</>,      desc: <>Payload, Volume throughput,..</> },
+                        { key: "utility",  Icon: ColorIcon, title: <>Utility Specs</>, desc: <>Power consumption, Operating pressure,..</> },
+                      ].map(({ key, Icon, title, desc }) => (
+                        <Box key={key} sx={{ display: "flex", alignItems: "center", gap: 2 }}>
                           <Box sx={{ width: 24, height: 24 }}>
                             <Icon style={{ fontSize: 24, color: "#000", position: "relative" }} />
                           </Box>
                           <Box>
-                            <Typography sx={{ fontSize: 20, fontWeight: 500, fontFamily: "Jost" }}><DynamicText>{title}</DynamicText></Typography>
-                            <Typography sx={{ fontSize: 16, fontFamily: "Jost" }}><DynamicText>{desc}</DynamicText></Typography>
+                            <Typography sx={{ fontSize: 20, fontWeight: 500, fontFamily: "Jost" }}>{title}</Typography>
+                            <Typography sx={{ fontSize: 16, fontFamily: "Jost" }}>{desc}</Typography>
                           </Box>
                         </Box>
                       ))}
@@ -302,16 +302,16 @@ export default async function ProductSinglePage({ params }: Props) {
                   <Grid size={{ xs: 6, md: 6 }}>
                     <Box sx={{ display: "flex", flexDirection: "column", gap: 3, width: 235 }}>
                       {[
-                        { Icon: ActivesIcon,   title: "Configuration",        desc: "Modular, Standalone, inline, or rotary." },
-                        { Icon: AdditivesIcon, title: "Build Quality", desc: "Material grade, wear resistance."       },
-                      ].map(({ Icon, title, desc }) => (
-                        <Box key={title} sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+                        { key: "Configuration", Icon: ActivesIcon,   title: <>Configuration</>,        desc: <>Modular, Standalone, inline, or rotary.</> },
+                        { key: "Quality", Icon: AdditivesIcon, title: <>Build Quality</>, desc: <>Material grade, wear resistance.</> },
+                      ].map(({ key, Icon, title, desc }) => (
+                        <Box key={key} sx={{ display: "flex", alignItems: "center", gap: 2 }}>
                           <Box sx={{ width: 24, height: 24 }}>
                             <Icon style={{ fontSize: 24, color: "#000", position: "relative" }} />
                           </Box>
                           <Box>
-                            <Typography sx={{ fontSize: 20, fontWeight: 500, fontFamily: "Jost" }}><DynamicText>{title}</DynamicText></Typography>
-                            <Typography sx={{ fontSize: 16, fontFamily: "Jost" }}><DynamicText>{desc}</DynamicText></Typography>
+                            <Typography sx={{ fontSize: 20, fontWeight: 500, fontFamily: "Jost" }}>{title}</Typography>
+                            <Typography sx={{ fontSize: 16, fontFamily: "Jost" }}>{desc}</Typography>
                           </Box>
                         </Box>
                       ))}

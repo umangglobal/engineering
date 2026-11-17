@@ -26,7 +26,7 @@ const gtReactFix = `
 
 export const metadata: Metadata = {
   title: 'Engineering',
-  description: '',
+  description: 'Umang Engineering designs and manufactures advanced process equipment and turnkey manufacturing solutions for the pharmaceutical, nutraceutical, food and chemical industries.',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',

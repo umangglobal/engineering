@@ -46,7 +46,7 @@ function Flag({ code }: { code: string }) {
       component="img"
       src={`https://flagcdn.com/w20/${code}.png`}
       srcSet={`https://flagcdn.com/w40/${code}.png 2x`}
-      alt=""
+      alt={""}
       sx={{ width: 20, height: 15, objectFit: "cover", borderRadius: "2px", flexShrink: 0 }}
     />
   );
