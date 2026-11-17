@@ -121,7 +121,7 @@ We can help you optimize your process, increase productivity, and gain manufactu
                     "&:hover": { backgroundColor: "#b85c6d" },
                   }}
                 >
-                  Contact Us to Know More
+                  <span>Contact Us to Know More</span>
                   <Box sx={{ width: "24px", height: "24px", position: "relative", overflow: "hidden" }}>
                     <MailIcon style={{ width: "24px", height: "24px" }} />
                   </Box>
