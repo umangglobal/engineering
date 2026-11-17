@@ -26,17 +26,28 @@ function isSupportedLang(value: string): value is SupportedLang {
   return Object.prototype.hasOwnProperty.call(LANGUAGES, value);
 }
 
+function cookieDomains(): (string | null)[] {
+  const host = window.location.hostname;           // www.umangengineering.com
+  const parts = host.split(".");
+  const root = parts.length > 2 ? parts.slice(-2).join(".") : host; // umangengineering.com
+  // null = no domain attribute (current host only)
+  return [null, host, `.${host}`, root, `.${root}`];
+}
+
+function writeCookie(name: string, value: string, domain: string | null, maxAge: number) {
+  document.cookie =
+    `${name}=${value}; path=/; max-age=${maxAge}` + (domain ? `; domain=${domain}` : "");
+}
+
 function setGoogleLanguage(lang: SupportedLang) {
-  const host = window.location.hostname;
-  const expire = "expires=Thu, 01 Jan 1970 00:00:00 GMT";
+  // 1. Remove every old googtrans cookie (host, www, root domain)
+  for (const d of cookieDomains()) writeCookie("googtrans", "", d, 0);
 
-  document.cookie = `googtrans=; path=/; ${expire}`;
-  document.cookie = `googtrans=; path=/; domain=.${host}; ${expire}`;
-
+  // 2. Set the new one (skip for English = no translation)
   if (lang !== "en") {
-    const code = LANGUAGES[lang].google;
-    document.cookie = `googtrans=/en/${code}; path=/`;
-    document.cookie = `googtrans=/en/${code}; path=/; domain=.${host}`;
+    const value = `/en/${LANGUAGES[lang].google}`;
+    writeCookie("googtrans", value, null, 31536000);
+    writeCookie("googtrans", value, `.${cookieDomains()[3]}`, 31536000); // root domain
   }
 }
 
@@ -67,14 +78,19 @@ export function LanguageSwitcher() {
   const { locale, setLocale } = useLingoContext();
   const current: SupportedLang = isSupportedLang(locale) ? locale : "en";
 
-  const handleChange = (e: SelectChangeEvent<string>) => {
-    const value = e.target.value;
-    if (!isSupportedLang(value)) return;
+const handleChange = (e: SelectChangeEvent<string>) => {
+  const value = e.target.value;
+  if (!isSupportedLang(value) || value === current) return;
 
-    setGoogleLanguage(value);         // Google: database content
-    setLocale(value as LocaleCode);   // Lingo: static content (reloads page)
-  };
+  // Google: database content
+  setGoogleLanguage(value);
 
+  // Lingo: static content - write its cookie directly (default name "locale", 1 year)
+  writeCookie("locale", value, null, 31536000);
+
+  // One full reload so both Lingo and Google start fresh with the new language
+  window.location.reload();
+};
   return (
     <Select
       value={current}
