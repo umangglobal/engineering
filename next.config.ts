@@ -25,7 +25,8 @@ export default async function (): Promise<NextConfig> {
   const config = await withLingo(nextConfig, {
     sourceRoot: ".",
     sourceLocale: "en",
-    targetLocales: ["hi", "fr", "de"],
+    targetLocales: ["hi", "fr", "de", "es", "zh", "ar", "pt", "ja", "ru"],
+    buildMode: process.env.VERCEL ? "cache-only" : "translate",
     models: {
       "en:*": "google:gemini-3.5-flash-lite",
     },
