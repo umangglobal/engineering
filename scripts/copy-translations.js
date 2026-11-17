@@ -11,12 +11,15 @@ fs.mkdirSync(outDir, { recursive: true });
 let copied = 0;
 for (const l of locales) {
   const src = path.join(srcDir, `${l}.json`);
-  if (!fs.existsSync(src)) {
-    console.error(`[copy-translations] Missing ${src}`);
+  if (fs.existsSync(src)) {
+    fs.copyFileSync(src, path.join(outDir, `${l}.json`));
+    copied++;
+  } else if (fs.existsSync(path.join(outDir, `${l}.json`))) {
+    console.warn(`[copy-translations] ${src} not generated, keeping committed public/translations/${l}.json`);
+  } else {
+    console.error(`[copy-translations] No translation file for ${l} anywhere`);
     process.exit(1);
   }
-  fs.copyFileSync(src, path.join(outDir, `${l}.json`));
-  copied++;
 }
 
 console.log(`[copy-translations] Copied ${copied} files to ${outDir}`);
