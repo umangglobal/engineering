@@ -8706,3 +8706,26 @@
 2026-11-17T02:50:04.085Z [ERROR] [Lingo.dev]   [ja] hash=3fc9ba8c07bf source="" error="Translator doesn't return translation"
 2026-11-17T02:50:04.772Z [ERROR] [Lingo.dev] 1 translation error(s) for ar:
 2026-11-17T02:50:04.773Z [ERROR] [Lingo.dev]   [ar] hash=3fc9ba8c07bf source="" error="Translator doesn't return translation"
+2026-11-17T02:57:20.489Z [INFO] [Lingo.dev] 🔧 Initializing translator...
+2026-11-17T02:57:20.708Z [DEBUG] [Lingo.dev] Starting translation server on port 60000
+2026-11-17T02:57:20.726Z [INFO] [Lingo.dev] Translation server listening on http://127.0.0.1:60000
+2026-11-17T02:57:20.746Z [INFO] [Lingo.dev] WebSocket server initialized
+2026-11-17T02:57:20.751Z [DEBUG] [Lingo.dev] Reloaded metadata: 10 entries
+2026-11-17T02:57:20.755Z [DEBUG] [Lingo.dev] Reloaded metadata: 10 entries
+2026-11-17T02:57:20.758Z [DEBUG] [Lingo.dev] Reloaded metadata: 10 entries
+2026-11-17T02:57:20.760Z [DEBUG] [Lingo.dev] Reloaded metadata: 10 entries
+2026-11-17T02:57:20.765Z [DEBUG] [Lingo.dev] Reloaded metadata: 10 entries
+2026-11-17T02:57:20.772Z [DEBUG] [Lingo.dev] Reloaded metadata: 10 entries
+2026-11-17T02:57:20.778Z [INFO] [Lingo.dev] Translating all 10 entries to de
+2026-11-17T02:57:20.782Z [INFO] [Lingo.dev] Translating all 10 entries to es
+2026-11-17T02:57:20.784Z [INFO] [Lingo.dev] Translating all 10 entries to zh
+2026-11-17T02:57:20.791Z [INFO] [Lingo.dev] Translating all 10 entries to ar
+2026-11-17T02:57:20.794Z [INFO] [Lingo.dev] Translating all 10 entries to pt
+2026-11-17T02:57:20.796Z [INFO] [Lingo.dev] Translating all 10 entries to ja
+2026-11-17T02:57:20.800Z [DEBUG] [Lingo.dev] Reloaded metadata: 10 entries
+2026-11-17T02:57:20.802Z [DEBUG] [Lingo.dev] Reloaded metadata: 10 entries
+2026-11-17T02:57:20.804Z [DEBUG] [Lingo.dev] Reloaded metadata: 10 entries
+2026-11-17T02:57:20.810Z [INFO] [Lingo.dev] Translating all 10 entries to hi
+2026-11-17T02:57:20.813Z [INFO] [Lingo.dev] Translating all 10 entries to fr
+2026-11-17T02:57:20.815Z [INFO] [Lingo.dev] Translating all 10 entries to ru
+2026-11-17T02:57:20.837Z [INFO] [Lingo.dev] Translation server stopped

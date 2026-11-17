@@ -130,7 +130,7 @@ export default function Header() {
               <Link href="mailto:info@umangglobal.com" style={{ textDecoration: "none", color: "inherit" }}>
                 <Box sx={{ display: "flex", alignItems: "center", gap: "6px", cursor: "pointer" }}>
                   <MailIcon style={{ width: "23px", height: "23px", color: "#141B34" }} />
-                  <Typography sx={{ fontSize: "16px", fontFamily: "Jost" }}>info@umangglobal.com</Typography>
+                  <Typography sx={{ fontSize: "16px", fontFamily: "Jost" }}>{"info@umangglobal.com"}</Typography>
                 </Box>
               </Link>
 
